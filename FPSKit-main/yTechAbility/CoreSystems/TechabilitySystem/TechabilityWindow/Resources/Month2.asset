@@ -1,0 +1,456 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ed501699bc4ab047acad5bb638a7279, type: 3}
+  m_Name: Month2
+  m_EditorClassIdentifier: 
+  week1: {fileID: 2800000, guid: 015b5bcb39c08754096009103a14bf75, type: 3}
+  week2: {fileID: 2800000, guid: 0baba6a0efb51ef4ab492567f2017777, type: 3}
+  week3: {fileID: 2800000, guid: 964ea971af371fe47be91b1dce0877a3, type: 3}
+  week4: {fileID: 2800000, guid: d78fab46490ab434081861d9ded3b76d, type: 3}
+  week1Selected: {fileID: 2800000, guid: 0d3deb73ecf38924db248244f54c1c92, type: 3}
+  week2Selected: {fileID: 2800000, guid: 1e0e3d5f40076c74dab77c2a980d2ffb, type: 3}
+  week3Selected: {fileID: 2800000, guid: 8c6db607faf21f747a5b9d031176d9a4, type: 3}
+  week4Selected: {fileID: 2800000, guid: 725651a01dfc6a04ea55e4cc05ba461d, type: 3}
+  _checkSetup: {fileID: 2800000, guid: 8773453d34252e845bad2fdca5435606, type: 3}
+  _checked: {fileID: 2800000, guid: 2b69b5fab8c620a439cdae36017a9ef8, type: 3}
+  _unchecked: {fileID: 2800000, guid: 03190f91e2131414eaf12f82ba941bb3, type: 3}
+  _incompleted: {fileID: 2800000, guid: b514f43eb6cfd2e488c8c43c59025bac, type: 3}
+  _completed: {fileID: 2800000, guid: 51de5b28804b98f4aa114292a3643efd, type: 3}
+  headerImage: {fileID: 2800000, guid: 9f0a0207ba251dd4d9dbd4adfb2b175e, type: 3}
+  gearImage: {fileID: 2800000, guid: 256837c6a08a088488c889f054e497f8, type: 3}
+  openSettings: 0
+  screenScale: 0.5555556
+  email: Teacher
+  password: Password
+  studentID: "\n        301804040404"
+  classesPerWeek: 1
+  startDate:
+  - 2021
+  - 3
+  - 1
+  loggedIn: 1
+  isTeacher: 0
+  selectedWeek: 1
+  drawDefault: 0
+  steps1:
+  - name: STRT
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/_qc_WJCnzV0
+    collapse: 1
+    incompletedText: You have not selected a new Environment
+    completedText: You have selected a new Environment!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 8
+      subCategoryFx: 0
+      subCategoryPoints: 10
+    coins: 0
+    description: 'Select Starting Environment (build '
+    prerequisite: 
+  - name: PRPB
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/7b7ttViqndY
+    collapse: 1
+    incompletedText: You have not placed your Player prefabs in the scene
+    completedText: Your Player prefabs have been set up!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 14
+      subCategoryFx: 0
+      subCategoryPoints: 10
+    coins: 0
+    description: Player Prefab setup
+    prerequisite: 
+  - name: DCBS
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/xUgwBeoH6KI
+    collapse: 1
+    incompletedText: You have not added atleast 5 decorations to your base
+    completedText: You have decorated your base scene!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 15
+      subCategoryFx: 0
+      subCategoryPoints: 10
+    coins: 0
+    description: Decorate Base
+    prerequisite: 
+  - name: DGGT
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/yfetupz00I0
+    collapse: 1
+    incompletedText: You have not set up your Dungeon Gate
+    completedText: You can now move between scenes!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 14
+      subCategoryFx: 0
+      subCategoryPoints: 10
+    coins: 0
+    description: Set up Dungeon Gate
+    prerequisite: 
+  steps2:
+  - name: PSSC
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/hKjCa92a67M
+    collapse: 1
+    incompletedText: You have not created your PatrolSimple script, or it is in the
+      wrong location.
+    completedText: You have created your PatrolSimple script!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 1
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Create PatrolSimple Script
+    prerequisite: 
+  - name: PSVR
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/0rdOWnbR220
+    collapse: 1
+    incompletedText: You have not added the variables to your PatrolSimple script
+    completedText: You have added the variabels to your PatrolSimple script!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 2
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Variables
+    prerequisite: 
+  - name: PSSM
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/Jh9Y-ExpQ9k
+    collapse: 1
+    incompletedText: You have not filled out the Start method in your PatrolSImple
+      script
+    completedText: You have succesfully filled out the Start method in PatrolSimple!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 3
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Start
+    prerequisite: 
+  - name: PSUP
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/TLZYyuiN2kI
+    collapse: 1
+    incompletedText: You haVe not filled out the Update method in your PatrolSimple
+      script
+    completedText: You have filled out the Update method in your PatrolSimple script!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 3
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 15
+    coins: 0
+    description: Update
+    prerequisite: 
+  - name: PSWP
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/R-uUmoKOcr4
+    collapse: 1
+    incompletedText: You have not placed waypoints for your PatrolSimple script.
+    completedText: You have succesfully placed waypoints for your PatrolSimple script!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 8
+      subCategoryFx: 0
+      subCategoryPoints: 10
+    coins: 0
+    description: Place Waypoints
+    prerequisite: 
+  steps3:
+  - name: PPSC
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/ZO31H80upTY
+    collapse: 1
+    incompletedText: You have not created your PatrolPath script, or it is in the
+      wrong location
+    completedText: You have succesfully created your PatrolPath script!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 1
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Create PatrolPath script
+    prerequisite: 
+  - name: PPVR
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/8EZEYcZze8s
+    collapse: 1
+    incompletedText: You have not added Variables to your PatrolPath script
+    completedText: You have added Variables to your PatrolPath script!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 2
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Variables
+    prerequisite: 
+  - name: PPSM
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/VYMSDSvf4YY
+    collapse: 1
+    incompletedText: You have not filled out the Start Method in your PatrolPath
+      script
+    completedText: You have filled out your Start method in PatrolPath!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 3
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Start
+    prerequisite: 
+  - name: PPUP
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/VZFAP4UUcFw
+    collapse: 1
+    incompletedText: You have not filled out the Update method in your PatrolPath
+      script
+    completedText: Your Update method in PatrolPath has been filled out!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 3
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 15
+    coins: 0
+    description: Update
+    prerequisite: 
+  - name: PPWP
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/Z-NDp1JnWBk
+    collapse: 1
+    incompletedText: You have not placed Waypoints for your PatrolPath script
+    completedText: You have succesfully set up your PatrolPath enemy!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 8
+      subCategoryFx: 0
+      subCategoryPoints: 10
+    coins: 0
+    description: Place Waypoints
+    prerequisite: 
+  steps4:
+  - name: RASC
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/YmX2jZy7SJM
+    collapse: 1
+    incompletedText: You have not created your RangedAttack script, or it is in the
+      wrong location
+    completedText: You have created the RangedAttack script!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 1
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Create Ranged Attack script
+    prerequisite: 
+  - name: RAVR
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/mr3ldJ5Q4hE
+    collapse: 1
+    incompletedText: You have not added the Variables to your RangedAttack script
+    completedText: You have added the Variables to your RangedAttack script!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 2
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Variables
+    prerequisite: 
+  - name: RAFP
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/m8SDRP0u63A
+    collapse: 1
+    incompletedText: You have not added the FireProjectile method to your RangedAttack
+      script
+    completedText: You have added the FireProjectile method to your RangedAttack
+      script!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 3
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 15
+    coins: 0
+    description: FireProjectile
+    prerequisite: 
+  - name: FPPP
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/rpOswYDdhts
+    collapse: 1
+    incompletedText: You have not added the FirePoint to your Ranged Enemy
+    completedText: You have succesfully set up your Ranged Enemy GameObjects!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 1
+      subCategoryUIUX: 0
+      subCategoryDesign: 8
+      subCategoryFx: 0
+      subCategoryPoints: 10
+    coins: 0
+    description: FirePoint and projectile prefab slo
+    prerequisite: 
+  - name: AEPB
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/EIZOxCxtQ6E
+    collapse: 1
+    incompletedText: You have not filled out your AttackEvent or created your RangedEnemy
+      Prefab
+    completedText: You have succesfully created a Ranged Enemy!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 14
+      subCategoryFx: 0
+      subCategoryPoints: 10
+    coins: 0
+    description: Attack Event and new Prefab
+    prerequisite: 

@@ -1,0 +1,320 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ed501699bc4ab047acad5bb638a7279, type: 3}
+  m_Name: Month1
+  m_EditorClassIdentifier: 
+  week1: {fileID: 2800000, guid: 015b5bcb39c08754096009103a14bf75, type: 3}
+  week2: {fileID: 2800000, guid: 0baba6a0efb51ef4ab492567f2017777, type: 3}
+  week3: {fileID: 2800000, guid: 964ea971af371fe47be91b1dce0877a3, type: 3}
+  week4: {fileID: 2800000, guid: d78fab46490ab434081861d9ded3b76d, type: 3}
+  week1Selected: {fileID: 2800000, guid: 0d3deb73ecf38924db248244f54c1c92, type: 3}
+  week2Selected: {fileID: 2800000, guid: 1e0e3d5f40076c74dab77c2a980d2ffb, type: 3}
+  week3Selected: {fileID: 2800000, guid: 8c6db607faf21f747a5b9d031176d9a4, type: 3}
+  week4Selected: {fileID: 2800000, guid: 725651a01dfc6a04ea55e4cc05ba461d, type: 3}
+  _checkSetup: {fileID: 2800000, guid: 8773453d34252e845bad2fdca5435606, type: 3}
+  _checked: {fileID: 2800000, guid: 2b69b5fab8c620a439cdae36017a9ef8, type: 3}
+  _unchecked: {fileID: 2800000, guid: 03190f91e2131414eaf12f82ba941bb3, type: 3}
+  _incompleted: {fileID: 2800000, guid: b514f43eb6cfd2e488c8c43c59025bac, type: 3}
+  _completed: {fileID: 2800000, guid: 51de5b28804b98f4aa114292a3643efd, type: 3}
+  headerImage: {fileID: 2800000, guid: 9f0a0207ba251dd4d9dbd4adfb2b175e, type: 3}
+  gearImage: {fileID: 2800000, guid: 256837c6a08a088488c889f054e497f8, type: 3}
+  openSettings: 1
+  screenScale: 0.5555556
+  email: Teacher
+  password: Password
+  studentID: "\n        301804040404"
+  classesPerWeek: 1
+  startDate:
+  - 2021
+  - 3
+  - 1
+  loggedIn: 1
+  isTeacher: 1
+  selectedWeek: 1
+  drawDefault: 0
+  steps1:
+  - name: RKW1_01
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://docs.google.com/presentation/d/1cJp_7Q5vHt7bg0qDbAsmGr9qB1ZJdtGsbmTQJy8JD4g/edit?usp=sharing
+    collapse: 0
+    incompletedText: You have not placed the Player Racer prefab Into the Scene
+    completedText: The Player Racer Prefab is in the Scene!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 14
+      subCategoryFx: 0
+      subCategoryPoints: 15
+    coins: 0
+    description: Add the Player to the Scene
+    prerequisite: 
+  - name: RKW1_02
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://docs.google.com/presentation/d/1ENP--aJeUcdBZrolzP9wbpujTO-kV_71H4iGHjTXtQ0/edit?usp=sharing
+    collapse: 0
+    incompletedText: Improve Speed and Reduce Drag
+    completedText: Your car is ready to Race!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 14
+      subCategoryFx: 0
+      subCategoryPoints: 15
+    coins: 0
+    description: Improve Car's Performance
+    prerequisite: 
+  - name: RKW1_03
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://docs.google.com/presentation/d/16cwOiugbqkOocfSe7knm8XK0sEcRRHnWWwRg0_TsXq0/edit?usp=sharing
+    collapse: 1
+    incompletedText: Complete one Lap on Test Track or Race Track
+    completedText: Testing Done!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 8
+      subCategoryFx: 0
+      subCategoryPoints: 15
+    coins: 0
+    description: Complete One Lap
+    prerequisite: 
+  steps2:
+  - name: RKW2_01
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://docs.google.com/presentation/d/1wZrK8pZPmmQZStUd-9oZu2L34xko7jQyN98bsP7rjDQ/edit?usp=sharing
+    collapse: 1
+    incompletedText: You need to start a new Scene named "Track"
+    completedText: You have your own track scene to work in!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 14
+      subCategoryFx: 0
+      subCategoryPoints: 15
+    coins: 0
+    description: Create a New Scene for your Track
+    prerequisite: 
+  - name: RKW2_02
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://docs.google.com/presentation/d/1bbD1XnirkDCi1qqLeg5T1gM4bBrUSlOZZPa66x54piE/edit?usp=sharing
+    collapse: 1
+    incompletedText: 'The Ground object needs a layer 6 "Ground" set. '
+    completedText: Your ground object is set as ground!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 8
+      subCategoryFx: 0
+      subCategoryPoints: 15
+    coins: 0
+    description: Gound has ground layer set
+    prerequisite: 
+  - name: RKW2_03
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://docs.google.com/presentation/d/1GfclGcvz0CTKCiZNnmWO6H_36lXMMS41j99AVAavyWo/edit?usp=sharing
+    collapse: 1
+    incompletedText: You need 15 or more track pieces
+    completedText: You have enough pieces for a small track
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 15
+      subCategoryFx: 16
+      subCategoryPoints: 20
+    coins: 0
+    description: Build a Course
+    prerequisite: 
+  steps3:
+  - name: RKW3_01
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://docs.google.com/presentation/d/15kZs6kz7m8ynD3kAssK776SV3WnldLtVl_SvAHqsWvU/edit?usp=sharing
+    collapse: 1
+    incompletedText: You have not Place a Path Manager in the Scene
+    completedText: You have your Path Manger!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 6
+      subCategoryDesign: 14
+      subCategoryFx: 0
+      subCategoryPoints: 20
+    coins: 0
+    description: Add the Path Manager
+    prerequisite: 
+  - name: RKW3_02
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://docs.google.com/presentation/d/1CMpZBlwwTdUKZOUd63oqwOMG7XOwJSpB7DOTEtKN1MY/edit?usp=sharing
+    collapse: 1
+    incompletedText: Place your path points in scene
+    completedText: You have enough path points for a small scene
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 6
+      subCategoryDesign: 15
+      subCategoryFx: 0
+      subCategoryPoints: 30
+    coins: 0
+    description: Create a Path using Path Points
+    prerequisite: 
+  - name: RKW3_03
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://docs.google.com/presentation/d/1-ouo8e3LGT0Ynw4290pc4yxP1LZ2AlAYXU7zExil1y0/edit?usp=sharing
+    collapse: 1
+    incompletedText: You need to Add the path points to the pathPoints List
+    completedText: Your path points have been added to the list!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 2
+      subCategoryUIUX: 0
+      subCategoryDesign: 9
+      subCategoryFx: 0
+      subCategoryPoints: 15
+    coins: 0
+    description: Add Path points to the Path Manager
+    prerequisite: 
+  - name: RKW3_04
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://docs.google.com/presentation/d/1pO98JUINJ92QhfvfinGJtEBHkszFQeAeOLhyd_0w79s/edit?usp=sharing
+    collapse: 1
+    incompletedText: Add Off track objects to decorate your scene
+    completedText: You've done some decoration for track!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 2
+      subCategoryUIUX: 0
+      subCategoryDesign: 15
+      subCategoryFx: 0
+      subCategoryPoints: 15
+    coins: 0
+    description: Add Track Decorations
+    prerequisite: 
+  steps4:
+  - name: RKW4_01
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://docs.google.com/presentation/d/1gKwgjAvq5vr7DHM7qHSPBkjD5-Xs71xyHl5ZXYSCVak/edit?usp=sharing
+    collapse: 1
+    incompletedText: Add an AI Racer prefab to your scene
+    completedText: You an AI Racer in your scene!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 1
+      subCategoryUIUX: 0
+      subCategoryDesign: 14
+      subCategoryFx: 0
+      subCategoryPoints: 10
+    coins: 0
+    description: Add an AI Racer
+    prerequisite: 
+  - name: RKW4_02
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://docs.google.com/presentation/d/11ze30eufPfC6WNMmoC9K7brVkli--whN4rynFCXQLaA/edit?usp=sharing
+    collapse: 1
+    incompletedText: Assign your Path Manger to the AI Racer
+    completedText: Get Ready to Race!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 2
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 10
+    coins: 0
+    description: Give the AI it's Path!
+    prerequisite: 
+  - name: RKW4_03
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://docs.google.com/presentation/d/1n84FFO-A0pGTSChMTee15iMrGvN2wROTL7V409BGf5Y/edit?usp=sharing
+    collapse: 1
+    incompletedText: Add 7 or More Objects that you can run over
+    completedText: You have some obstacles on the track... for FUN!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 15
+      subCategoryFx: 0
+      subCategoryPoints: 15
+    coins: 0
+    description: Physics Objects Get in the Way
+    prerequisite: 

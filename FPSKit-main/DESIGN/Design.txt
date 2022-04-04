@@ -1,0 +1,91 @@
+When there's a variable involved, have them use a script to set values. 
+
+
+FPS Kit
+Week 1: Seting up the Game \\ the Character & Movement
+
+Introduce Prefabs & Prefab View
+
+*** Step 1: Add Player Prefab To Scene
+*** Step 2: Adjust Player Variables 
+*** Step ##: Complete 'Level 1' (Gameplay)
+    --- Will need to adjust jump varibles to complete the level.
+	--- Jumping Puzzle to Complete.  
+ 
+
+DEEP Dive 
+	How the level is constructed 
+	Having the students build a new level 
+		Build an Among us level?  
+
+
+Week 2: Triggers, Keys, Doors
+
+Key needs to have string for the door it opens. 
+Player has a dictionary of items 
+Need to explanin Player Inventory... 
+
+*** Trigger Script
+
+*** Build the Key
+	--- Add Key Script 
+	--- Mark Key as Trigger
+
+*** STEP ##: Complete 'Level2'
+	Will have to get a key in the level to unlock a door. 
+
+DEEP Dive 
+	Other Uses for Triggers 
+	Add Particles effects to pick ups
+	Add an icon to the hud that shows you got the Key. 
+
+
+
+Week 3: If Statements 
+
+*** Step 1:  Add a Weapon to the player 
+			Pistol 
+*** Step 2: Students need write an if statement to enable them to fire their weapon.
+ 
+*** Step 3: Complete 'Level3'	
+		Students need to hit objects to get to an area in Level 3
+	
+Deep Dive: 
+	Different Weapon types
+		-- Grenade
+		-- Sword 
+	Add 1-3 keys to switch weapons. :) 
+		Switch Weapon function given to them??? 
+
+
+
+
+Week 4: Enemies 
+Setup Enemies 
+Enemies have "Pop Up Damage Numbers". When the students shoot them, they pop up with just "0". 
+
+* They need to write the code for them to take the damage 
+* Need to write an if statement in the enemy script to check if they're dead and to call their onDown Function 
+* When all the enemies all "Down", the Final step of the Week is finished. 
+
+*** Step 1: Setup Enemy Prefab
+*** Step 2: Setup Enemy Generator
+
+*** Step ##: Complete 'Level4'	
+		Students need to hit objects to get to an area in Level 3
+
+Deep Dive: 
+	Enemies fight back (Damages Player)
+
+
+
+
+Scripts:
+PlayerController
+	-- Needs Flags for Items\Keys ect... 
+AIController
+Health 
+Points
+Items 
+Weapon
+Ammo

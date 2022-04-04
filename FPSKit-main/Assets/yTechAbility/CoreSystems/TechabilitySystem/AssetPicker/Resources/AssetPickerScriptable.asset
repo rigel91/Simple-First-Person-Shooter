@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 459d49f6bb4137d409807b2b6feef116, type: 3}
+  m_Name: AssetPickerScriptable
+  m_EditorClassIdentifier: 
+  assetManager: {fileID: 11400000, guid: b5328cb8b821c9943a0b4a0da97cdd25, type: 2}
+  openSettings: 0
+  gearImage: {fileID: 2800000, guid: 256837c6a08a088488c889f054e497f8, type: 3}
+  characters: {fileID: 2800000, guid: f4324f1d3214d544292ee3b8fd165e7d, type: 3}
+  charactersAlert: {fileID: 2800000, guid: fdbe6b2c8a2e9814b84ffc48b0c53d06, type: 3}
+  environment: {fileID: 2800000, guid: d9a6f29181268334a9980d017cee231e, type: 3}
+  environmentAlert: {fileID: 2800000, guid: e62fb01715c315c4a81259847e3619c4, type: 3}
+  enemies: {fileID: 2800000, guid: cbd4505682256264a85e8b1f220ccd9c, type: 3}
+  enemiesAlert: {fileID: 2800000, guid: bf2b6380f0a7ccb46bc931d2d6093edb, type: 3}
+  selectBackground: {fileID: 2800000, guid: e120caf412fd7c0438a81bfdf3392879, type: 3}
+  male:
+  - {fileID: 2800000, guid: 8151ec5f495f9294ca97d2ed87a72fd7, type: 3}
+  - {fileID: 2800000, guid: cc6e328232be43b45b7c0b67d4b5bb43, type: 3}
+  - {fileID: 2800000, guid: cd3800ea0c0572f4cae04dc21166482e, type: 3}
+  - {fileID: 2800000, guid: 07e6a10866c36d349b4ea1f57a4ef901, type: 3}
+  - {fileID: 2800000, guid: cb746ea166cc6a64e91b9ff26f861fc9, type: 3}
+  female:
+  - {fileID: 2800000, guid: c2e1a7b06ef6e2b4d94abd0ba7c3a837, type: 3}
+  - {fileID: 2800000, guid: eecf992faded7164ebbbcadf50d63bfb, type: 3}
+  - {fileID: 2800000, guid: ef60ed505cbc06d4cb9147d85572ab70, type: 3}
+  - {fileID: 2800000, guid: dd6ce580b7e60274bac843305587a099, type: 3}
+  - {fileID: 2800000, guid: c04e049583ed93e4da4ee7e8f404e151, type: 3}

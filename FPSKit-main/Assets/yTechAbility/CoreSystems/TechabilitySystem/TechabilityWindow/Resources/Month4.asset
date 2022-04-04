@@ -1,0 +1,965 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ed501699bc4ab047acad5bb638a7279, type: 3}
+  m_Name: Month4
+  m_EditorClassIdentifier: 
+  week1: {fileID: 2800000, guid: 015b5bcb39c08754096009103a14bf75, type: 3}
+  week2: {fileID: 2800000, guid: 0baba6a0efb51ef4ab492567f2017777, type: 3}
+  week3: {fileID: 2800000, guid: 964ea971af371fe47be91b1dce0877a3, type: 3}
+  week4: {fileID: 2800000, guid: d78fab46490ab434081861d9ded3b76d, type: 3}
+  week1Selected: {fileID: 2800000, guid: 0d3deb73ecf38924db248244f54c1c92, type: 3}
+  week2Selected: {fileID: 2800000, guid: 1e0e3d5f40076c74dab77c2a980d2ffb, type: 3}
+  week3Selected: {fileID: 2800000, guid: 8c6db607faf21f747a5b9d031176d9a4, type: 3}
+  week4Selected: {fileID: 2800000, guid: 725651a01dfc6a04ea55e4cc05ba461d, type: 3}
+  _checkSetup: {fileID: 2800000, guid: 8773453d34252e845bad2fdca5435606, type: 3}
+  _checked: {fileID: 2800000, guid: 2b69b5fab8c620a439cdae36017a9ef8, type: 3}
+  _unchecked: {fileID: 2800000, guid: 03190f91e2131414eaf12f82ba941bb3, type: 3}
+  _incompleted: {fileID: 2800000, guid: b514f43eb6cfd2e488c8c43c59025bac, type: 3}
+  _completed: {fileID: 2800000, guid: 51de5b28804b98f4aa114292a3643efd, type: 3}
+  headerImage: {fileID: 2800000, guid: 9f0a0207ba251dd4d9dbd4adfb2b175e, type: 3}
+  gearImage: {fileID: 2800000, guid: 256837c6a08a088488c889f054e497f8, type: 3}
+  openSettings: 0
+  screenScale: 0.5555556
+  email: Teacher
+  password: Password
+  studentID: "\n        301804040404"
+  classesPerWeek: 1
+  startDate:
+  - 2021
+  - 3
+  - 1
+  loggedIn: 1
+  isTeacher: 0
+  selectedWeek: 3
+  drawDefault: 0
+  steps1:
+  - name: ONEH
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/PEqftYRPiuI
+    collapse: 0
+    incompletedText: 4
+    completedText: 4
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 15
+      subCategoryFx: 0
+      subCategoryPoints: 10
+    coins: 0
+    description: Create our first hole, decorate
+    prerequisite: 
+  - name: STRT
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/DZbxKh_Ixyo
+    collapse: 1
+    incompletedText: You have not set up the StartingPositions GameObject
+    completedText: Your starting positions are now set!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 8
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Set up start positions
+    prerequisite: 
+  - name: CLUB
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/GgIkdid6cqs
+    collapse: 1
+    incompletedText: You have not added the ClubController script to all of your
+      club prefabs
+    completedText: You have successfully added the ClubController script to all of
+      your club prefabs!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 1
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Add Club controller script
+    prerequisite: 
+  - name: VARS
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/dsZc5Z6sNPM
+    collapse: 1
+    incompletedText: You have not added the necessary variables to your ClubController
+    completedText: Your ClubController now has all of its variables!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 2
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Add Variables
+    prerequisite: 
+  - name: TRNC
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/IrXNqSwNF1M
+    collapse: 1
+    incompletedText: You have not added the TurnClub method to your ClubController
+    completedText: You have successfully added the TurnClub method to your ClubController
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 3
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Write TurnClub method
+    prerequisite: 
+  - name: SWNG
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/qBm2stsLhEo
+    collapse: 1
+    incompletedText: You have not added the SwingClub method to your ClubController
+    completedText: You have successfully added the SwingClub method to your ClubController!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 3
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Write SwingClub method
+    prerequisite: 
+  - name: SETP
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/PKcBL78tTI4
+    collapse: 1
+    incompletedText: You have not added the SetPosition method to your ClubController
+    completedText: You have successfully added the SetPosition method to your ClubController!
+    feedback: 
+    subSteps: []
+    points: []
+    coins: 0
+    description: Write SetPosition method
+    prerequisite: 
+  - name: UPDM
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/9xFamcWEr-E
+    collapse: 1
+    incompletedText: You have not yet filled the Update method on your ClubController
+    completedText: You have successfully filled the Update method on your ClubController
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 3
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Fill Update method
+    prerequisite: 
+  - name: TWOH
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/LOIFyRAOFEk
+    collapse: 1
+    incompletedText: You have not created your second hole, or it is missing a required
+      object
+    completedText: You have created your second hole!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 15
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Create our Second hole, decorate
+    prerequisite: 
+  steps2:
+  - name: THRH
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/QtJbHjPHfRw
+    collapse: 1
+    incompletedText: You have not created your third hole, or it is missing a required
+      object
+    completedText: You have created your third hole!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 15
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Create our Third hole, decorate
+    prerequisite: 
+  - name: BLCR
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/93wvF8kzmPg
+    collapse: 1
+    incompletedText: You have not added the BallController to your ball prefabs
+    completedText: You have successfully added the BallController to your ball prefabs!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 9
+      subCategoryFx: 0
+      subCategoryPoints: 10
+    coins: 0
+    description: Add BallController to ball prefabs
+    prerequisite: 
+  - name: CKVL
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/RrACNzXlZxU
+    collapse: 1
+    incompletedText: You have not added the CheckVelocity method to your BallController
+    completedText: You have successfully added the CheckVelocity method to your BallController!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 3
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Write CheckVelocity method
+    prerequisite: 
+  - name: FXUP
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/qTxs8o7W5tU
+    collapse: 1
+    incompletedText: You have not filled the Start and FixedUpdate methods
+    completedText: You have successfully filled the Start and FixedUpdate methods!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 3
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Fill Start and FixedUpdate
+    prerequisite: 
+  - name: MVBL
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/5VE8b44xtrg
+    collapse: 1
+    incompletedText: You have not added the MoveBall method to your BallController
+    completedText: You have successfully added the MoveBall method to your BallController!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 3
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Write MoveBall method
+    prerequisite: 
+  - name: ONCL
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/BFgKBu6RmYY
+    collapse: 1
+    incompletedText: You have not added the OnCollisionEnter method to your BallController
+    completedText: You have successfully added the OnCollisionEnter method to your
+      BallController!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 3
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Write OnCollisionEnter
+    prerequisite: 
+  - name: GMGO
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/GmH_YMILYwE
+    collapse: 1
+    incompletedText: You have not added the GameManager GameObject, it is missing
+      the GameManager script, or it is named improperly
+    completedText: Your GameManager is now set up!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 9
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Add GameManager GO, script
+    prerequisite: 
+  - name: SPPL
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/K-HHnKd5A0o
+    collapse: 1
+    incompletedText: You have not filled the SpawnPlayers method in your GameManager
+    completedText: You have successfully  filled the SpawnPlayers method in your
+      GameManager!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 3
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Write SpawnPlayers Method
+    prerequisite: 
+  - name: STHL
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/S7JSPbHr-9Y
+    collapse: 1
+    incompletedText: You have not filled in the StartHole method on your GameManager
+    completedText: You have successfully filled in the StartHole method on your GameManager!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 3
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Write StartHole Method
+    prerequisite: 
+  - name: STTN
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/qD6qxNoiK4U
+    collapse: 1
+    incompletedText: You have not filled the StartTurn method on your GameManager
+    completedText: You have successfully  filled the StartTurn method on your GameManager!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 3
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Write StartTurn Method
+    prerequisite: 
+  - name: GMFL
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/014BYuGrZFw
+    collapse: 1
+    incompletedText: You have not correctly filled the fields on your GameManager
+    completedText: You have filled all the fields on your GameManager!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 9
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Fill GameManager fields
+    prerequisite: 
+  - name: FORH
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/fC5N-qdRClw
+    collapse: 1
+    incompletedText: You have not created your fourth hole, or it is missing a required
+      object
+    completedText: You have created your fourth hole!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 15
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Create our Fourth hole, decorate
+    prerequisite: 
+  steps3:
+  - name: FVEH
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/0apQ9OLoSqg
+    collapse: 1
+    incompletedText: You have not created your fifth hole, or it is missing a required
+      object
+    completedText: You have created your fifth hole!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 15
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Create our Fifth hole, Decorate
+    prerequisite: 
+  - name: CNVS
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/nA09cIEfFLA
+    collapse: 1
+    incompletedText: You have not set up your Canvas or ScoreKeeper object
+    completedText: You have successfully set up your Canvas and ScoreKeeper!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 2
+      subCategoryScript: 0
+      subCategoryUIUX: 13
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 10
+    coins: 0
+    description: 'Create Canvas, ScoreKeeper child '
+    prerequisite: 
+  - name: SCIM
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/nhuofTfz7WA
+    collapse: 1
+    incompletedText: You have not created the ScoreCard Image object
+    completedText: Your ScoreCard image is now set-up!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 2
+      subCategoryScript: 0
+      subCategoryUIUX: 13
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 20
+    coins: 0
+    description: Create ScoreCard image GO
+    prerequisite: 
+  - name: TXOB
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/XBQvx3Z6FgM
+    collapse: 1
+    incompletedText: You have not properly set up your Text objects for Holes and
+      Par
+    completedText: You have properly set up your Text objects for Holes and Par!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 2
+      subCategoryScript: 0
+      subCategoryUIUX: 4
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 20
+    coins: 0
+    description: Create Holes GO, Text objs
+    prerequisite: 
+  - name: PSOB
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/uWwB-zWznZQ
+    collapse: 1
+    incompletedText: You have not properly set up your Text objects for each player's
+      score
+    completedText: Your player score objects are ready to go!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 2
+      subCategoryScript: 0
+      subCategoryUIUX: 4
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 10
+    coins: 0
+    description: 
+    prerequisite: 
+  - name: SCKP
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/X-DlvA5X1WI
+    collapse: 1
+    incompletedText: You have not added your ScoreKeeper script or filled its fields
+      properly
+    completedText: Your ScoreKeeper script is now ready to go!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 2
+      subCategoryScript: 0
+      subCategoryUIUX: 4
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 10
+    coins: 0
+    description: 
+    prerequisite: 
+  - name: SCUP
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/SgNrxGOOcPY
+    collapse: 1
+    incompletedText: You have not filled out the ScoreKeeper Update method
+    completedText: Your ScoreKeeper's Update method is now filled!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 3
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: 
+    prerequisite: 
+  - name: UPSC
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/QPLPIAgVnvk
+    collapse: 1
+    incompletedText: You have not filled out the Update Score method on your ScoreKeeper
+    completedText: Your ScoreKeeper script is now complete!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 3
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: 
+    prerequisite: 
+  - name: SIXH
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/voZqABtrSlQ
+    collapse: 1
+    incompletedText: You have not created your sixth hole, or it is missing a required
+      object
+    completedText: You have created your sixth hole!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 15
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: 
+    prerequisite: 
+  steps4:
+  - name: SVNH
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/5yYe8FRlVT0
+    collapse: 1
+    incompletedText: You have not created your seventh hole, or it is missing a required
+      object
+    completedText: You have created your seventh hole!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 15
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Create 7th Hole, Decorate
+    prerequisite: 
+  - name: PSCV
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/uw3q_EaRrak
+    collapse: 1
+    incompletedText: You have not properly set-up your Player Select canvas
+    completedText: You have properly set-up your Player Select canvas!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 2
+      subCategoryScript: 0
+      subCategoryUIUX: 4
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 10
+    coins: 0
+    description: Create Player Select canvas
+    prerequisite: 
+  - name: BTGM
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/_2wmxfzYGRs
+    collapse: 1
+    incompletedText: You have not created your buttons properly, or you have not
+      removed the line from your GameManager
+    completedText: Your buttons are now ready to go!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 2
+      subCategoryScript: 0
+      subCategoryUIUX: 4
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Create Buttons
+    prerequisite: 
+  - name: EGTH
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/WLi2z94NgJE
+    collapse: 1
+    incompletedText: You have not created your eighth hole, or it is missing a required
+      object
+    completedText: You have created your eighth hole!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 15
+      subCategoryFx: 0
+      subCategoryPoints: 10
+    coins: 0
+    description: 
+    prerequisite: 
+  - name: MBPB
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/xN_i6Vapr70
+    collapse: 1
+    incompletedText: You have not added your Moving Block prefab to the scene or
+      it is not attached to a hole
+    completedText: Your Moving Block prefab is present in your game!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 14
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Add Moving Block Prefab to any hole
+    prerequisite: 
+  - name: MBSC
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/avc0oo7-Rj4
+    collapse: 1
+    incompletedText: You have not created the MovingBlock script
+    completedText: Your MovingBlock script has been created!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 1
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Create Moving Block Script
+    prerequisite: 
+  - name: MBVR
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/asvakkqQe7U
+    collapse: 1
+    incompletedText: You have not added the variables to your MovingBlock script
+    completedText: Your MovingBlock variables are ready to go!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 2
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: 
+    prerequisite: 
+  - name: MBUP
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/AFl582F3NfM
+    collapse: 1
+    incompletedText: You have not filled the Update method on the MovingBlock script
+    completedText: Your MovingBlock script is now complete!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 3
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: 
+    prerequisite: 
+  - name: BRPB
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/pKEqTa-TKTU
+    collapse: 1
+    incompletedText: Your BoosterRamp prefab is not in your scene, or it is not attached
+      to a hole
+    completedText: Your BoosterRamp is now present in your game!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 14
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: 
+    prerequisite: 
+  - name: BRSC
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/vv2JtAe_mdY
+    collapse: 1
+    incompletedText: You have not created the BoosterRamp script
+    completedText: Your BoosterRamp script has been created!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 1
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: 
+    prerequisite: 
+  - name: BRCR
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/DqbhntLBFOw
+    collapse: 1
+    incompletedText: 'You have not added the Variables or the BoostCooldown coroutine '
+    completedText: Your BoosterRamp script has its variables and cooldown method!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 2
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: 
+    prerequisite: 
+  - name: BRCL
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/SiO-ATePWig
+    collapse: 1
+    incompletedText: You have not added the OnCollisionEnter method to the BoosterRamp
+      script
+    completedText: Your BoosterRamp script is now complete!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 3
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: 
+    prerequisite: 
+  - name: NINH
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/epZgHEdTs4Q
+    collapse: 1
+    incompletedText: You have not created your ninth hole, or it is missing a required
+      object
+    completedText: You have created your ninth hole! You now have a full nine hole
+      minigolf course!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 15
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: 
+    prerequisite: 

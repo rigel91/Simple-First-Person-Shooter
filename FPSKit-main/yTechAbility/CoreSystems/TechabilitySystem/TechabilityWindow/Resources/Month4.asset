@@ -1,0 +1,404 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ed501699bc4ab047acad5bb638a7279, type: 3}
+  m_Name: Month4
+  m_EditorClassIdentifier: 
+  week1: {fileID: 2800000, guid: 015b5bcb39c08754096009103a14bf75, type: 3}
+  week2: {fileID: 2800000, guid: 0baba6a0efb51ef4ab492567f2017777, type: 3}
+  week3: {fileID: 2800000, guid: 964ea971af371fe47be91b1dce0877a3, type: 3}
+  week4: {fileID: 2800000, guid: d78fab46490ab434081861d9ded3b76d, type: 3}
+  week1Selected: {fileID: 2800000, guid: 0d3deb73ecf38924db248244f54c1c92, type: 3}
+  week2Selected: {fileID: 2800000, guid: 1e0e3d5f40076c74dab77c2a980d2ffb, type: 3}
+  week3Selected: {fileID: 2800000, guid: 8c6db607faf21f747a5b9d031176d9a4, type: 3}
+  week4Selected: {fileID: 2800000, guid: 725651a01dfc6a04ea55e4cc05ba461d, type: 3}
+  _checkSetup: {fileID: 2800000, guid: 8773453d34252e845bad2fdca5435606, type: 3}
+  _checked: {fileID: 2800000, guid: 2b69b5fab8c620a439cdae36017a9ef8, type: 3}
+  _unchecked: {fileID: 2800000, guid: 03190f91e2131414eaf12f82ba941bb3, type: 3}
+  _incompleted: {fileID: 2800000, guid: b514f43eb6cfd2e488c8c43c59025bac, type: 3}
+  _completed: {fileID: 2800000, guid: 51de5b28804b98f4aa114292a3643efd, type: 3}
+  headerImage: {fileID: 2800000, guid: 9f0a0207ba251dd4d9dbd4adfb2b175e, type: 3}
+  gearImage: {fileID: 2800000, guid: 256837c6a08a088488c889f054e497f8, type: 3}
+  openSettings: 1
+  screenScale: 0.5555556
+  email: Teacher
+  password: Password
+  studentID: "\n        301804040404"
+  classesPerWeek: 1
+  startDate:
+  - 2021
+  - 3
+  - 1
+  loggedIn: 1
+  isTeacher: 0
+  selectedWeek: 1
+  drawDefault: 0
+  steps1:
+  - name: STEV
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/SJdtGCwKqOY
+    collapse: 1
+    incompletedText: You have not yet selected a new environment.
+    completedText: You have now selected a new environment!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 15
+      subCategoryFx: 0
+      subCategoryPoints: 15
+    coins: 0
+    description: Select Environment
+    prerequisite: 
+  - name: SUPP
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/0_9cCkA1DOA
+    collapse: 1
+    incompletedText: You have not yet set up your Player Prefabs.
+    completedText: Your Player Prefabs are now set up!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 8
+      subCategoryFx: 0
+      subCategoryPoints: 15
+    coins: 0
+    description: Set up Player Prefabs
+    prerequisite: 
+  - name: SUGG
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/hllaIXqWXyc
+    collapse: 1
+    incompletedText: You have not yet set up your Dungeon Gates.
+    completedText: Your Dungeon Gates are now set up!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 9
+      subCategoryFx: 0
+      subCategoryPoints: 15
+    coins: 0
+    description: Set up Dungeon Gates
+    prerequisite: 
+  - name: DBSU
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/c0ZD4WcPgn0
+    collapse: 1
+    incompletedText: You have not yet added 5 decorations to your Base.
+    completedText: Your Base is now decorated!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 8
+      subCategoryFx: 0
+      subCategoryPoints: 15
+    coins: 0
+    description: Decorate Base
+    prerequisite: 
+  steps2:
+  - name: CVMK
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/BVikpDBjgZU
+    collapse: 1
+    incompletedText: You have not yet created your Minimap Canvas.
+    completedText: Your Minimap Canvas and Mask are now set up!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 2
+      subCategoryScript: 0
+      subCategoryUIUX: 13
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Create Canvas and Mask
+    prerequisite: 
+  - name: RTRI
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/9Ya8LkwKkI8
+    collapse: 1
+    incompletedText: You have not yet set up your Render Texture
+    completedText: Your Render Texture and images are now set up!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 2
+      subCategoryScript: 0
+      subCategoryUIUX: 13
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 10
+    coins: 0
+    description: Create Render Texture, Raw Image, p
+    prerequisite: 
+  - name: MCOR
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/IuCu7ObOa5A
+    collapse: 1
+    incompletedText: You have not yet set up your Minimap Camera.
+    completedText: Your Minimap Camera is now set up!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 2
+      subCategoryScript: 0
+      subCategoryUIUX: 13
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 10
+    coins: 0
+    description: Create Minimap Camera and Output to
+    prerequisite: 
+  - name: MMSC
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/LNC8eiVI774
+    collapse: 1
+    incompletedText: You have not yet written your Minimap script.
+    completedText: Your Minimap script is now comlete!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 1
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 25
+    coins: 0
+    description: Write Minimap script
+    prerequisite: 
+  steps3:
+  - name: MNSC
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/1f57CjJsrjc
+    collapse: 1
+    incompletedText: You have not yet set up your Menu Scene.
+    completedText: Your Menu Scene has been set up!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 2
+      subCategoryScript: 0
+      subCategoryUIUX: 13
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 10
+    coins: 0
+    description: Create Menu Scene, Add Canvas, Atta
+    prerequisite: 
+  - name: BGMN
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/zgeAiubjbsI
+    collapse: 1
+    incompletedText: You have not added your Background image yet.
+    completedText: Your Background image is set up!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 2
+      subCategoryScript: 0
+      subCategoryUIUX: 13
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 10
+    coins: 0
+    description: Add Background, Menu root obj
+    prerequisite: 
+  - name: TLTX
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/r5hyhxf_R8Y
+    collapse: 1
+    incompletedText: You have not yet added your Title Text.
+    completedText: Your Title Text now exists!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 2
+      subCategoryScript: 0
+      subCategoryUIUX: 4
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Add Title Text
+    prerequisite: 
+  - name: BTBB
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/e0rXrV0Sf6c
+    collapse: 1
+    incompletedText: You have not yet added your Buttons or Button Box.
+    completedText: Your Buttons and Button Box have been added!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 2
+      subCategoryScript: 0
+      subCategoryUIUX: 4
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Add Buttons, Button Box
+    prerequisite: 
+  - name: BTMS
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/YDm2cGBTnsM
+    collapse: 1
+    incompletedText: You have not yet attached the Menu Script to your Buttons.
+    completedText: Your Buttons are now complete!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 2
+      subCategoryScript: 0
+      subCategoryUIUX: 13
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Attach buttons to menu script
+    prerequisite: 
+  steps4:
+  - name: LSOB
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/bkp3X9wpzH4
+    collapse: 1
+    incompletedText: You have not yet set up your LevelSelect canvas.
+    completedText: Your LevelSelect Canvas is now set up!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 2
+      subCategoryScript: 0
+      subCategoryUIUX: 13
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 10
+    coins: 0
+    description: Add level select obj, Title Text
+    prerequisite: 
+  - name: BTSI
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/wp4Jb3EWS8Y
+    collapse: 1
+    incompletedText: You have not yet set up your Level Select Button.
+    completedText: Your Level Select Button is now started!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 2
+      subCategoryScript: 0
+      subCategoryUIUX: 13
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Create button, swap image
+    prerequisite: 
+  - name: LVLI
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/JjjLkPgVFvo
+    collapse: 1
+    incompletedText: You have not yet added your Level Image or Text
+    completedText: Your Level Image and Text are now complete!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 2
+      subCategoryScript: 0
+      subCategoryUIUX: 4
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Add level image and text
+    prerequisite: 
+  - name: MNSD
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/D-m1869cQbQ
+    collapse: 1
+    incompletedText: You have not yet attached the Menu script to your Button.
+    completedText: Your Level Select buttons are now complete!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 2
+      subCategoryScript: 0
+      subCategoryUIUX: 13
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Attach to menu script, duplicate as
+    prerequisite: 

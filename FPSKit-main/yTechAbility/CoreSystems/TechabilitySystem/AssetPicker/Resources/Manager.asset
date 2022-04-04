@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22f9e04fee7a3a14fb45926ce4674396, type: 3}
+  m_Name: Manager
+  m_EditorClassIdentifier: 
+  month1:
+    environments:
+    - name: Castle
+      sample: {fileID: 2800000, guid: 29f72f34cfa12b547a455338d24e900d, type: 3}
+      type: 0
+      loaded: 0
+    - name: Cave
+      sample: {fileID: 2800000, guid: 6b05f645bc88ac44499b0429e1c3fae1, type: 3}
+      type: 0
+      loaded: 0
+    characters:
+    - name: GreenLizard
+      sample: {fileID: 2800000, guid: c39d42ad0b74f824483aca34d86a4f8e, type: 3}
+      type: 0
+      loaded: 0
+    - name: GreenImp
+      sample: {fileID: 2800000, guid: 9620dac94de0c2043a21147cfde04fa2, type: 3}
+      type: 0
+      loaded: 0
+    - name: RedShroom
+      sample: {fileID: 2800000, guid: 8c3f0ae7acc2acf4e8cd20160a0ad0ad, type: 3}
+      type: 0
+      loaded: 0
+    - name: GreyGolem
+      sample: {fileID: 2800000, guid: 244b0ace4008bdc4b86254e27ba6d163, type: 3}
+      type: 0
+      loaded: 0
+    - name: OilSlime
+      sample: {fileID: 2800000, guid: e7e0d37f5f2d3774a930d2e7ce34ceba, type: 3}
+      type: 0
+      loaded: 0
+    - name: DarkDino
+      sample: {fileID: 2800000, guid: 93ec6b3642d82114fadd053dd7eae667, type: 3}
+      type: 0
+      loaded: 0
+    - name: OrangeSpider
+      sample: {fileID: 2800000, guid: 7c491d7ecd81b1e42986d8036607bbbd, type: 3}
+      type: 0
+      loaded: 0
+    - name: BlackWolf
+      sample: {fileID: 2800000, guid: f0c8b3fc2b915e146a5c9b71ca5df07d, type: 3}
+      type: 0
+      loaded: 0
+    - name: BlackZombieHound
+      sample: {fileID: 2800000, guid: b6897f47ad7a1304ab78bc50ab92668d, type: 3}
+      type: 0
+      loaded: 0
+    enemies:
+    - name: GreenLizard
+      sample: {fileID: 2800000, guid: c39d42ad0b74f824483aca34d86a4f8e, type: 3}
+      type: 0
+      loaded: 0
+    - name: GreenImp
+      sample: {fileID: 2800000, guid: 9620dac94de0c2043a21147cfde04fa2, type: 3}
+      type: 0
+      loaded: 0
+    - name: RedShroom
+      sample: {fileID: 2800000, guid: 8c3f0ae7acc2acf4e8cd20160a0ad0ad, type: 3}
+      type: 0
+      loaded: 0
+    - name: GreyGolem
+      sample: {fileID: 2800000, guid: 244b0ace4008bdc4b86254e27ba6d163, type: 3}
+      type: 0
+      loaded: 0
+    - name: OilSlime
+      sample: {fileID: 2800000, guid: e7e0d37f5f2d3774a930d2e7ce34ceba, type: 3}
+      type: 0
+      loaded: 0
+    - name: DarkDino
+      sample: {fileID: 2800000, guid: 93ec6b3642d82114fadd053dd7eae667, type: 3}
+      type: 0
+      loaded: 0
+    - name: OrangeSpider
+      sample: {fileID: 2800000, guid: 7c491d7ecd81b1e42986d8036607bbbd, type: 3}
+      type: 0
+      loaded: 0
+    - name: BlackWolf
+      sample: {fileID: 2800000, guid: f0c8b3fc2b915e146a5c9b71ca5df07d, type: 3}
+      type: 0
+      loaded: 0
+    - name: BlackZombieHound
+      sample: {fileID: 2800000, guid: b6897f47ad7a1304ab78bc50ab92668d, type: 3}
+      type: 0
+      loaded: 0
+  month2:
+    environments:
+    - name: Snow
+      sample: {fileID: 2800000, guid: fe579330f82fcde4994d91cc8196032a, type: 3}
+      type: 0
+      loaded: 0
+    - name: Forest
+      sample: {fileID: 2800000, guid: 102fb1e0a1b24c54dbe3168ca96fc942, type: 3}
+      type: 0
+      loaded: 0
+    characters: []
+    enemies:
+    - name: Crocodile
+      sample: {fileID: 2800000, guid: c9747db5f42b1af4abb59432061211d2, type: 3}
+      type: 0
+      loaded: 0
+    - name: HellGuard
+      sample: {fileID: 2800000, guid: c39131d90839a06439a79ab4e91c3a18, type: 3}
+      type: 0
+      loaded: 0
+    - name: SkeletonWizard
+      sample: {fileID: 2800000, guid: 4b73871dd5d12184ea5ccaa7ea867bd3, type: 3}
+      type: 0
+      loaded: 0
+    - name: SlimeMan
+      sample: {fileID: 2800000, guid: c7a117433fbcbc847aa8dbf060d47952, type: 3}
+      type: 0
+      loaded: 0
+    - name: ZombieHound
+      sample: {fileID: 2800000, guid: a8a73b272b8a1bc44854fc958b2cd1ec, type: 3}
+      type: 0
+      loaded: 0
+  month3:
+    environments:
+    - name: Alien
+      sample: {fileID: 2800000, guid: 33e6a4fdac86ffe48bfb5910209d421c, type: 3}
+      type: 0
+      loaded: 0
+    - name: Temple
+      sample: {fileID: 2800000, guid: a7f9f628e1765e441846198142d7e6bb, type: 3}
+      type: 0
+      loaded: 0
+    characters: []
+    enemies:
+    - name: BearWhite
+      sample: {fileID: 2800000, guid: 8316cea44cb97e74fa703e33b03e2a98, type: 3}
+      type: 2
+      loaded: 0
+    - name: CrocodileRed
+      sample: {fileID: 2800000, guid: c61701df585fa58409fe0575c8010a1b, type: 3}
+      type: 2
+      loaded: 0
+    - name: RockGolemFrost
+      sample: {fileID: 2800000, guid: 2253f2fdbf67bd844999811a207e25e5, type: 3}
+      type: 2
+      loaded: 0
+    - name: SlimeToxic
+      sample: {fileID: 2800000, guid: def302993387d4948b87f03511c6b580, type: 3}
+      type: 2
+      loaded: 0
+    - name: ZombieHoundViolet
+      sample: {fileID: 2800000, guid: fa5c6087464bd214097305e9d0655517, type: 3}
+      type: 2
+      loaded: 0
+  month4:
+    environments:
+    - name: Island
+      sample: {fileID: 2800000, guid: fb1d8fb1869e70049a623e895ff1c4ac, type: 3}
+      type: 0
+      loaded: 0
+    - name: Desert
+      sample: {fileID: 2800000, guid: 4b2f6ff828c6b9b4e9cafd5843765bb3, type: 3}
+      type: 0
+      loaded: 0
+    characters: []
+    enemies:
+    - name: BearBlack
+      sample: {fileID: 2800000, guid: f4da9a0481aa2404e93ce0a7619927bc, type: 3}
+      type: 2
+      loaded: 0
+    - name: MushroomBlood
+      sample: {fileID: 2800000, guid: 0139794fa764dbf49aae8909c9c7d1f2, type: 3}
+      type: 2
+      loaded: 0
+    - name: SlimeWater
+      sample: {fileID: 2800000, guid: f36e55cf312c836458ed5f163a487428, type: 3}
+      type: 2
+      loaded: 0
+    - name: SlimeManWater
+      sample: {fileID: 2800000, guid: 156f69895983fa142a1f7ff692cc07f8, type: 3}
+      type: 2
+      loaded: 0
+    - name: VampireGreen
+      sample: {fileID: 2800000, guid: 2b5b9764c3de632438f8d64f2ea7d142, type: 3}
+      type: 2
+      loaded: 0
+    - name: ZombieHoundAlbino
+      sample: {fileID: 2800000, guid: c402ccc22c32f0d4799b1e7880eb93b5, type: 3}
+      type: 2
+      loaded: 0
+  _envo1Loaded: 0
+  _envo2Loaded: 0
+  _envo3Loaded: 0
+  _envo4Loaded: 0
+  enemy: 1
+  character: 0

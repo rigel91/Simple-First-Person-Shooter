@@ -1,0 +1,364 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ed501699bc4ab047acad5bb638a7279, type: 3}
+  m_Name: Month1
+  m_EditorClassIdentifier: 
+  week1: {fileID: 2800000, guid: 015b5bcb39c08754096009103a14bf75, type: 3}
+  week2: {fileID: 2800000, guid: 0baba6a0efb51ef4ab492567f2017777, type: 3}
+  week3: {fileID: 2800000, guid: 964ea971af371fe47be91b1dce0877a3, type: 3}
+  week4: {fileID: 2800000, guid: d78fab46490ab434081861d9ded3b76d, type: 3}
+  week1Selected: {fileID: 2800000, guid: 0d3deb73ecf38924db248244f54c1c92, type: 3}
+  week2Selected: {fileID: 2800000, guid: 1e0e3d5f40076c74dab77c2a980d2ffb, type: 3}
+  week3Selected: {fileID: 2800000, guid: 8c6db607faf21f747a5b9d031176d9a4, type: 3}
+  week4Selected: {fileID: 2800000, guid: 725651a01dfc6a04ea55e4cc05ba461d, type: 3}
+  _checkSetup: {fileID: 2800000, guid: 8773453d34252e845bad2fdca5435606, type: 3}
+  _checked: {fileID: 2800000, guid: 2b69b5fab8c620a439cdae36017a9ef8, type: 3}
+  _unchecked: {fileID: 2800000, guid: 03190f91e2131414eaf12f82ba941bb3, type: 3}
+  _incompleted: {fileID: 2800000, guid: b514f43eb6cfd2e488c8c43c59025bac, type: 3}
+  _completed: {fileID: 2800000, guid: 51de5b28804b98f4aa114292a3643efd, type: 3}
+  headerImage: {fileID: 2800000, guid: 9f0a0207ba251dd4d9dbd4adfb2b175e, type: 3}
+  gearImage: {fileID: 2800000, guid: 256837c6a08a088488c889f054e497f8, type: 3}
+  openSettings: 1
+  screenScale: 0.5555556
+  email: Teacher
+  password: Password
+  studentID: "\n        301804040404"
+  classesPerWeek: 1
+  startDate:
+  - 2021
+  - 3
+  - 1
+  loggedIn: 1
+  isTeacher: 1
+  selectedWeek: 4
+  drawDefault: 0
+  steps1:
+  - name: STRT
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/ONHRtxxAVQ0
+    collapse: 1
+    incompletedText: You have not selected your Starting Environment
+    completedText: You have selected a Starting Environment!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 15
+      subCategoryFx: 0
+      subCategoryPoints: 15
+    coins: 0
+    description: Select Starting Environment
+    prerequisite: 
+  - name: BASE
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/bY22IMe2RMo
+    collapse: 1
+    incompletedText: You have not added atleast 5 decorations to your base
+    completedText: Your base is now decorated!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 14
+      subCategoryFx: 0
+      subCategoryPoints: 15
+    coins: 0
+    description: Decorate Base
+    prerequisite: 
+  - name: GATE
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/kkiRyvFKGQk
+    collapse: 1
+    incompletedText: You have not set up your Dungeon Gate
+    completedText: Your Dungeon Gate is now set up!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 9
+      subCategoryFx: 0
+      subCategoryPoints: 15
+    coins: 0
+    description: Set up Dungeon Gate
+    prerequisite: 
+  steps2:
+  - name: CHMD
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/_9I9cMZYIc0
+    collapse: 1
+    incompletedText: You have not selected a Character Model
+    completedText: You have selected a Character Model!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 14
+      subCategoryFx: 0
+      subCategoryPoints: 15
+    coins: 0
+    description: Select Character Model
+    prerequisite: 
+  - name: ANCR
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/jVrUksuJFl4
+    collapse: 1
+    incompletedText: You have not attached the animation controller to your character
+    completedText: Your character now has its animation controller!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 9
+      subCategoryFx: 0
+      subCategoryPoints: 15
+    coins: 0
+    description: Add Animation Controller
+    prerequisite: 
+  - name: ANPM
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/EZcsXtxSRCs
+    collapse: 1
+    incompletedText: You have not set up your Animation Parameters
+    completedText: Your Animation Parameters are now set up!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 4
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 16
+      subCategoryPoints: 20
+    coins: 0
+    description: Set up Animator Parameters
+    prerequisite: 
+  - name: ANTR
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/gRYp0dqUvoY
+    collapse: 1
+    incompletedText: You have not set up your Animation Transitions
+    completedText: Your Animation Transitions are now set up!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 4
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 16
+      subCategoryPoints: 20
+    coins: 0
+    description: Set up Animator Transitions
+    prerequisite: 
+  steps3:
+  - name: STSL
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/xu24D1FjswY
+    collapse: 1
+    incompletedText: You have not placed your Stamina Slider
+    completedText: Your Stamina Slider has been placed!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 2
+      subCategoryScript: 0
+      subCategoryUIUX: 6
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 20
+    coins: 0
+    description: Place Stamina Slider
+    prerequisite: 
+  - name: HPSL
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/B7JrD2cjk5c
+    collapse: 1
+    incompletedText: You have not placed your Health Slider
+    completedText: You have placed your Health Slider!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 2
+      subCategoryScript: 0
+      subCategoryUIUX: 6
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 20
+    coins: 0
+    description: Place Health Slider
+    prerequisite: 
+  - name: BARS
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/GeJcfxZFxYQ
+    collapse: 1
+    incompletedText: You have not created the PlayerBars script, or it is in the
+      wrong location
+    completedText: You have created the PlayerBars script!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 1
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 15
+    coins: 0
+    description: Create PlayerBars script
+    prerequisite: 
+  - name: PRPS
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/QwfueWkh8rE
+    collapse: 1
+    incompletedText: Your PlayerBars script is incomplete
+    completedText: You have completed the PlayerBars script!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 2
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 15
+    coins: 0
+    description: Update Health and Stamina
+    prerequisite: 
+  steps4:
+  - name: STAT
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/VpMtJ1N7YX4
+    collapse: 1
+    incompletedText: You have not created the StatAdjuster script, or it is in the
+      wrong location
+    completedText: You have created the StatAdjuster script!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 1
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 10
+    coins: 0
+    description: Create a stat adjustment script
+    prerequisite: 
+  - name: STVR
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/lA2M9Puujbk
+    collapse: 1
+    incompletedText: You have not added variables to your StatAdjuster script
+    completedText: You have added variables to your StatAdjuster script!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 2
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 10
+    coins: 0
+    description: Add Variables for walk, run, jump
+    prerequisite: 
+  - name: STST
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/uD827QXKbIs
+    collapse: 0
+    incompletedText: You have not filled our the Start method in the StatAdjuster
+    completedText: Your Start method is now complete!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 3
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 10
+    coins: 0
+    description: Use start method to update PlayerCo
+    prerequisite: 
+  - name: STUP
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/v0RIk0X-03M
+    collapse: 1
+    incompletedText: You have not filled out your Update method in the StatAdjuster
+    completedText: Your StatAdjuster Update method is now complete!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 3
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 10
+    coins: 0
+    description: Use Update method to enable running
+    prerequisite: 

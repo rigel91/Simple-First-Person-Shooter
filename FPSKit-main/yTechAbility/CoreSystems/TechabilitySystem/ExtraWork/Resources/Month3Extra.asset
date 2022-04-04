@@ -1,0 +1,294 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bcbd37834c782f43aade12e89e62147, type: 3}
+  m_Name: Month3Extra
+  m_EditorClassIdentifier: 
+  designS: {fileID: 2800000, guid: 02293979d1a774342b78613497441d43, type: 3}
+  uiS: {fileID: 2800000, guid: 4d29496cb430a864dbf2f32f4bc9b67d, type: 3}
+  uxS: {fileID: 2800000, guid: 2f7caa727a0000644914c060e4320ebd, type: 3}
+  codingS: {fileID: 2800000, guid: 9dfd3f5e8c4da2645b01b9f5a75033aa, type: 3}
+  designSelected: {fileID: 2800000, guid: 16cd22bed78c6ab4b90b7fd04cb8da39, type: 3}
+  uiSelected: {fileID: 2800000, guid: 25cfb8d8cea0d4145840635dca9a7bba, type: 3}
+  uxSelected: {fileID: 2800000, guid: 42cabecec9436fa4b9b1e621c5d205fe, type: 3}
+  codingSelected: {fileID: 2800000, guid: aadd9c00d03c44c40bb758b73fe41c37, type: 3}
+  _checkSetup: {fileID: 2800000, guid: 6c7684a08ce3bbf4e952fdec98041aea, type: 3}
+  _checked: {fileID: 2800000, guid: 13145a91aebcc7a4891be777027369b6, type: 3}
+  _unchecked: {fileID: 2800000, guid: d7e6f4503cb4b284684a08365c58a50f, type: 3}
+  _incompleted: {fileID: 2800000, guid: 8a9faca13c666614bb9c43b905e733e8, type: 3}
+  _completed: {fileID: 2800000, guid: 14cb7977ff80af14ab8081239e287a3d, type: 3}
+  gearImage: {fileID: 2800000, guid: 256837c6a08a088488c889f054e497f8, type: 3}
+  openSettings: 0
+  screenScale: 0
+  selectedWeek: 1
+  drawDefault: 0
+  design:
+    easy:
+    - name: DRBD
+      completed: 0
+      count: 0
+      customInstructions: 0
+      instructions: 
+      url: https://youtu.be/RTEgQHunlT4
+      collapse: 1
+      incompletedText: You do not have draw bridges
+      completedText: You now have a draw bridge!
+      feedback: 
+      subSteps: []
+      points:
+      - mainCategory: 3
+        subCategoryScript: 0
+        subCategoryUIUX: 0
+        subCategoryDesign: 8
+        subCategoryFx: 0
+        subCategoryPoints: 5
+      coins: 0
+      description: Draw Bridges (easy)
+      prerequisite: 
+    intermediate:
+    - name: PRPL
+      completed: 0
+      count: 0
+      customInstructions: 0
+      instructions: 
+      url: https://youtu.be/Aw2yKOOjWr4
+      collapse: 1
+      incompletedText: You do not have Pressure Plates
+      completedText: You now have Pressure Plates!
+      feedback: 
+      subSteps: []
+      points:
+      - mainCategory: 3
+        subCategoryScript: 0
+        subCategoryUIUX: 0
+        subCategoryDesign: 8
+        subCategoryFx: 0
+        subCategoryPoints: 5
+      coins: 0
+      description: Pressure Plates (medium)
+      prerequisite: 
+    hard:
+    - name: DTTP
+      completed: 0
+      count: 0
+      customInstructions: 0
+      instructions: 
+      url: https://youtu.be/xUJZ_LZ5pYY
+      collapse: 1
+      incompletedText: You do not have wall traps
+      completedText: You now have Wall Traps!
+      feedback: 
+      subSteps: []
+      points:
+      - mainCategory: 3
+        subCategoryScript: 0
+        subCategoryUIUX: 0
+        subCategoryDesign: 8
+        subCategoryFx: 0
+        subCategoryPoints: 5
+      coins: 0
+      description: Dart Traps (Hard)
+      prerequisite: 
+  UI:
+    easy:
+    - name: LVTM
+      completed: 0
+      count: 0
+      customInstructions: 0
+      instructions: 
+      url: https://youtu.be/S514_uyHuYc
+      collapse: 1
+      incompletedText: You do not have a level timer
+      completedText: You now have a Level timer!
+      feedback: 
+      subSteps: []
+      points:
+      - mainCategory: 2
+        subCategoryScript: 0
+        subCategoryUIUX: 4
+        subCategoryDesign: 0
+        subCategoryFx: 0
+        subCategoryPoints: 25
+      coins: 0
+      description: Level Timer (Easy)
+      prerequisite: 
+    intermediate:
+    - name: PSBT
+      completed: 0
+      count: 0
+      customInstructions: 0
+      instructions: 
+      url: https://youtu.be/r8jeqg4atLQ
+      collapse: 1
+      incompletedText: You do not have a Pause button
+      completedText: You can now Pause!
+      feedback: 
+      subSteps: []
+      points:
+      - mainCategory: 2
+        subCategoryScript: 0
+        subCategoryUIUX: 4
+        subCategoryDesign: 0
+        subCategoryFx: 0
+        subCategoryPoints: 25
+      coins: 0
+      description: Pause Button (Medium)
+      prerequisite: 
+    hard:
+    - name: RNID
+      completed: 0
+      count: 0
+      customInstructions: 0
+      instructions: 
+      url: https://youtu.be/xq-M8J9-hC8
+      collapse: 1
+      incompletedText: You do not have a Range Indicator
+      completedText: You now have a Range Indicator!
+      feedback: 
+      subSteps: []
+      points:
+      - mainCategory: 2
+        subCategoryScript: 0
+        subCategoryUIUX: 13
+        subCategoryDesign: 0
+        subCategoryFx: 0
+        subCategoryPoints: 25
+      coins: 0
+      description: Range Indicator (crosshair) [Hard]
+      prerequisite: 
+  visual:
+    easy:
+    - name: OBLT
+      completed: 0
+      count: 0
+      customInstructions: 0
+      instructions: 
+      url: https://youtu.be/JZpqAksY3jg
+      collapse: 1
+      incompletedText: You do not have objective lights
+      completedText: You now have objective lighting!
+      feedback: 
+      subSteps: []
+      points:
+      - mainCategory: 4
+        subCategoryScript: 0
+        subCategoryUIUX: 0
+        subCategoryDesign: 0
+        subCategoryFx: 17
+        subCategoryPoints: 35
+      coins: 0
+      description: Objective Lighting (Easy)
+      prerequisite: 
+    intermediate:
+    - name: PTLT
+      completed: 0
+      count: 0
+      customInstructions: 0
+      instructions: 
+      url: https://youtu.be/QdDcLUIE-VQ
+      collapse: 1
+      incompletedText: You do not have path lighting
+      completedText: You now have path lighting!
+      feedback: 
+      subSteps: []
+      points:
+      - mainCategory: 4
+        subCategoryScript: 0
+        subCategoryUIUX: 0
+        subCategoryDesign: 0
+        subCategoryFx: 17
+        subCategoryPoints: 35
+      coins: 0
+      description: Path Lighting (Medium)
+      prerequisite: 
+    hard:
+    - name: DYNT
+      completed: 0
+      count: 0
+      customInstructions: 0
+      instructions: 
+      url: https://youtu.be/AMMWPeZ0lyc
+      collapse: 1
+      incompletedText: You do not have a Day/Night cycle
+      completedText: You now have a Day/Night cycle!
+      feedback: 
+      subSteps: []
+      points:
+      - mainCategory: 4
+        subCategoryScript: 0
+        subCategoryUIUX: 0
+        subCategoryDesign: 0
+        subCategoryFx: 17
+        subCategoryPoints: 35
+      coins: 0
+      description: Day/Night cycle (Hard)
+      prerequisite: 
+  coding:
+    easy:
+    - name: LEVR
+      completed: 0
+      count: 0
+      customInstructions: 0
+      instructions: 
+      url: https://youtu.be/kvSyGjeHCUg
+      collapse: 1
+      incompletedText: You do not have a lever
+      completedText: You now have a Lever!
+      feedback: 
+      subSteps: []
+      points:
+      - mainCategory: 1
+        subCategoryScript: 1
+        subCategoryUIUX: 0
+        subCategoryDesign: 0
+        subCategoryFx: 0
+        subCategoryPoints: 25
+      coins: 0
+      description: Button Activator (Easy)
+      prerequisite: 
+    intermediate:
+    - name: RTDR
+      completed: 0
+      count: 0
+      customInstructions: 0
+      instructions: 
+      url: https://youtu.be/jiLXK2li2HQ
+      collapse: 1
+      incompletedText: You do not have a rotating door
+      completedText: You now have a Rotating Door!
+      feedback: 
+      subSteps: []
+      points:
+      - mainCategory: 1
+        subCategoryScript: 1
+        subCategoryUIUX: 0
+        subCategoryDesign: 0
+        subCategoryFx: 0
+        subCategoryPoints: 25
+      coins: 0
+      description: Rotating Door (Medium)
+      prerequisite: 
+    hard:
+    - name: IPCM
+      completed: 0
+      count: 5
+      customInstructions: 0
+      instructions: 
+      url: https://youtu.be/NT5caNManpM
+      collapse: 1
+      incompletedText: You do not have the improved camera
+      completedText: You now have the improved camera!
+      feedback: 
+      subSteps: []
+      points: []
+      coins: 0
+      description: Improved Camera (Hard)
+      prerequisite: 

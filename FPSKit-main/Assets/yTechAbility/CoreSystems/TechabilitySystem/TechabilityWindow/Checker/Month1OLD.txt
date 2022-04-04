@@ -1,0 +1,317 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+namespace Techability.Systems
+{
+    public class Month1Check : MonthCheckerAbstract
+    {
+
+        public Month1Check()
+        {
+            scriptableName = "Month1";
+            base.EnsureSteps();
+        }
+
+        public override void CheckWeek1()
+        {
+
+            try
+            {
+                GameObject castlep = Resources.Load<GameObject>("Environments/Castle/Prefabs/Props/Banner");
+                GameObject cavep = Resources.Load<GameObject>("Environments/Castle/Prefabs/Modules/cave floor T");
+
+                if (castlep || cavep)
+                {
+                    if (steps.GetStep(1, "STRT").completed == false)
+                    {
+                        steps.GetStep(1, "STRT").completed = true;
+                        MonthChecker.AddPoints(steps.GetStep(1, "STRT"),this);
+                    }
+                }
+            }
+            catch { }
+
+            try
+            {
+                if (GameObject.FindGameObjectsWithTag("Decoration").Length >= 5)
+                {
+                    if (steps.GetStep(1, "BASE").completed == false)
+                    {
+                        steps.GetStep(1, "BASE").completed = true;
+                        MonthChecker.AddPoints(steps.GetStep(1, "BASE"), this);
+                    }
+                }
+            }
+            catch { }
+
+            try
+            {
+                GameObject gate = GameObject.Find("DungeonGate");
+
+                if (gate && (GetFieldValue("dungeonSceneName", "DungeonGate", gate) as string != ""))
+                {
+                    if (steps.GetStep(1, "GATE").completed == false)
+                    {
+                        steps.GetStep(1, "GATE").completed = true;
+                        MonthChecker.AddPoints(steps.GetStep(1, "BASE"), this);
+                    }
+                }
+            }
+            catch { }
+        }
+
+        public override void CheckWeek2()
+        {
+            try
+            {
+                GameObject player = GameObject.Find("Player");
+                Animator anim = player.GetComponentInChildren<Animator>();
+
+                if (anim != null)
+                {
+                    if (steps.GetStep(2, "CHMD").completed == false)
+                    {
+                        steps.GetStep(2, "CHMD").completed = true;
+                        MonthChecker.AddPoints(steps.GetStep(2, "CHMD"), this);
+                    }
+                }
+            }
+            catch { }
+
+            try
+            {
+                GameObject player = GameObject.Find("Player");
+                Animator anim = player.GetComponentInChildren<Animator>();
+
+                if (anim.runtimeAnimatorController != null)
+                {
+                    if (steps.GetStep(2, "ANCR").completed == false)
+                    {
+                        steps.GetStep(2, "ANCR").completed = true;
+                        MonthChecker.AddPoints(steps.GetStep(2, "ANCR"), this);
+                    }
+                }
+            }
+            catch { }
+
+            try
+            {
+                GameObject GO = GameObject.Find("Player");
+                UnityEditor.Animations.AnimatorController RC = GO.GetComponentInChildren<Animator>().runtimeAnimatorController as UnityEditor.Animations.AnimatorController;
+
+                if (ContainsParam(RC, "Walking"))
+                {
+                    if (steps.GetStep(2, "ANPM").completed == false)
+                    {
+                        steps.GetStep(2, "ANPM").completed = true;
+                        MonthChecker.AddPoints(steps.GetStep(2, "ANPM"), this);
+                    }
+                }
+            }
+            catch { }
+
+            try
+            {
+                GameObject GO = GameObject.Find("Player");
+                UnityEditor.Animations.AnimatorController RC = GO.GetComponentInChildren<Animator>().runtimeAnimatorController as UnityEditor.Animations.AnimatorController;
+                UnityEditor.Animations.ChildAnimatorState[] AST = RC.layers[0].stateMachine.states;
+                UnityEditor.Animations.AnimatorState AS = RC.layers[0].stateMachine.defaultState;
+                UnityEditor.Animations.AnimatorStateTransition[] ASTs = RC.layers[0].stateMachine.anyStateTransitions;
+
+                foreach (var ast0 in AST)
+                {
+                    if (ast0.state.name == "Walk")
+                    {
+                        AS = ast0.state;
+                        ASTs = AS.transitions;
+                        if (ASTs[0].conditions[0].parameter == "Walking")
+                        {
+                            if (steps.GetStep(2, "ANTR").completed == false)
+                            {
+                                steps.GetStep(2, "ANTR").completed = true;
+                                StepSequence.SetStep("ANTR");
+                                MonthChecker.AddPoints(steps.GetStep(2, "ANTR"), this);
+                            }
+                        }
+                    }
+                }
+            }
+            catch { }
+        }
+
+        public override void CheckWeek3()
+        {
+            try
+            {
+                GameObject player = GameObject.Find("Player");
+                if (player.transform.Find("PlayerCanvas").Find("PlayerStaminaSlider"))
+                {
+                    if (steps.GetStep(3, "STSL").completed == false)
+                    {
+                        steps.GetStep(3, "STSL").completed = true;
+                        MonthChecker.AddPoints(steps.GetStep(3, "STSL"), this);
+                    }
+                }
+            }
+            catch { }
+
+            try
+            {
+                GameObject player = GameObject.Find("Player");
+                if (player.transform.Find("PlayerCanvas").Find("PlayerHealthSlider"))
+                {
+                    if (steps.GetStep(3, "HPSL").completed == false)
+                    {
+                        steps.GetStep(3, "HPSL").completed = true;
+                        MonthChecker.AddPoints(steps.GetStep(3, "HPSL"), this);
+                    }
+                }
+            }
+            catch { }
+
+            try
+            {
+                TextAsset script = Resources.Load<TextAsset>("Scripts/Created/PlayerBars");
+                if (script != null)
+                {
+                    if (steps.GetStep(3, "BARS").completed == false)
+                    {
+                        steps.GetStep(3, "BARS").completed = true;
+                        MonthChecker.AddPoints(steps.GetStep(3, "BARS"), this);
+                    }
+                }
+
+            }
+            catch { }
+
+            try
+            {
+                TextAsset script = Resources.Load<TextAsset>("Scripts/Created/PlayerBars");
+                string[] array = null;
+                Vector2Int methodRange;
+                if (script != null)
+                {
+                    array = ScriptToArray(script.text);
+                }
+                methodRange = MethodRange("void Start()", array, true, false);
+
+                if (ContainsLineInRange("stats = GetComponentInParent<PlayerStats>();", array, methodRange, true) &&
+                    ContainsLineInRange("healthSlider.maxValue = stats.MaxHealth;", array, methodRange, true) &&
+                    ContainsLineInRange("staminaSlider.maxValue = stats.MaxStamina;", array, methodRange, true))
+                {
+                    methodRange = MethodRange("void Update()", array, true, false);
+
+                    if (ContainsLineInRange("healthSlider.value = stats.CurHealth;", array, methodRange, true) &&
+                    ContainsLineInRange("staminaSlider.value = stats.CurStamina;", array, methodRange, true))
+                    {
+                        if (steps.GetStep(3, "PRPS").completed == false)
+                        {
+                            steps.GetStep(3, "PRPS").completed = true;
+                            MonthChecker.AddPoints(steps.GetStep(3, "PRPS"), this);
+                        }
+                    }
+                }
+            }
+            catch { }
+        }
+
+        public override void CheckWeek4()
+        {
+            try
+            {
+                TextAsset script = Resources.Load<TextAsset>("Scripts/Created/StatAdjuster");
+                if (script != null)
+                {
+                    if (steps.GetStep(4, "STAT").completed == false)
+                    {
+                        steps.GetStep(4, "STAT").completed = true;
+                        MonthChecker.AddPoints(steps.GetStep(4, "STAT"), this);
+                    }
+                }
+
+            }
+            catch { }
+            try
+            {
+                TextAsset script = Resources.Load<TextAsset>("Scripts/Created/StatAdjuster");
+                string[] array = null;
+                Vector2Int methodRange;
+                if (script != null)
+                {
+                    array = ScriptToArray(script.text);
+                }
+
+                if (ContainsLine("public float walkSpeed = 5f;", script.text) &&
+                    ContainsLine("public float sprintSpeed = 10f;", script.text) &&
+                    ContainsLine("public float jumpSpeed = 10f;", script.text) &&
+                    ContainsLine("PlayerController PC;", script.text) &&
+                    ContainsLine("PlayerStats stats;", script.text))
+                {
+                    if (steps.GetStep(4, "STVR").completed == false)
+                    {
+                        steps.GetStep(4, "STVR").completed = true;
+                        MonthChecker.AddPoints(steps.GetStep(4, "STVR"), this);
+                    }
+                }
+            }
+            catch { }
+
+            try
+            {
+                TextAsset script = Resources.Load<TextAsset>("Scripts/Created/StatAdjuster");
+                string[] array = null;
+                Vector2Int methodRange;
+                if (script != null)
+                {
+                    array = ScriptToArray(script.text);
+                }
+                methodRange = MethodRange("void Start()", array, true, false);
+
+                if (ContainsLineInRange("PC = GetComponent<PlayerController>();", array, methodRange, true) &&
+                    ContainsLineInRange("stats = GetComponent<PlayerStats>();", array, methodRange, true) &&
+                    ContainsLineInRange("PC.SetMoveSpeed(walkSpeed);", array, methodRange, true) &&
+                    ContainsLineInRange("PC.SetJumpSpeed(jumpSpeed);", array, methodRange, true))
+                {
+
+                    if (steps.GetStep(4, "STST").completed == false)
+                    {
+                        steps.GetStep(4, "STST").completed = true;
+                        MonthChecker.AddPoints(steps.GetStep(4, "STST"), this);
+                    }
+                }
+            }
+            catch { }
+
+            try
+            {
+                TextAsset script = Resources.Load<TextAsset>("Scripts/Created/StatAdjuster");
+                string[] array = null;
+                Vector2Int methodRange;
+                if (script != null)
+                {
+                    array = ScriptToArray(script.text);
+                }
+                methodRange = MethodRange("void Update()", array, true, false);
+
+                if (ContainsLineInRange("if (Input.GetKeyDown(KeyCode.LeftShift) && stats.CurStamina > 1)", array, methodRange, true) &&
+                    ContainsLineInRange("PC.SetMoveSpeed(sprintSpeed);", array, methodRange, true) &&
+                    ContainsLineInRange("if (Input.GetKey(KeyCode.LeftShift))", array, methodRange, true) &&
+                    ContainsLineInRange("stats.UseStamina(stats.MaxStamina / 2 * Time.deltaTime);", array, methodRange, true) &&
+                    ContainsLineInRange("if (Input.GetKeyUp(KeyCode.LeftShift) || stats.CurStamina < 1)", array, methodRange, true) &&
+                    ContainsLineInRange("PC.SetMoveSpeed(walkSpeed);", array, methodRange, true))
+                {
+
+                    if (steps.GetStep(4, "STUP").completed == false)
+                    {
+                        steps.GetStep(4, "STUP").completed = true;
+                        StepSequence.SetStep("STUP");
+                        MonthChecker.AddPoints(steps.GetStep(4, "STUP"), this);
+                    }
+                }
+            }
+            catch { }
+        }
+    }
+}

@@ -1,0 +1,300 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bcbd37834c782f43aade12e89e62147, type: 3}
+  m_Name: Month4Extra
+  m_EditorClassIdentifier: 
+  designS: {fileID: 2800000, guid: 02293979d1a774342b78613497441d43, type: 3}
+  uiS: {fileID: 2800000, guid: 4d29496cb430a864dbf2f32f4bc9b67d, type: 3}
+  uxS: {fileID: 2800000, guid: 2f7caa727a0000644914c060e4320ebd, type: 3}
+  codingS: {fileID: 2800000, guid: 9dfd3f5e8c4da2645b01b9f5a75033aa, type: 3}
+  designSelected: {fileID: 2800000, guid: 16cd22bed78c6ab4b90b7fd04cb8da39, type: 3}
+  uiSelected: {fileID: 2800000, guid: 25cfb8d8cea0d4145840635dca9a7bba, type: 3}
+  uxSelected: {fileID: 2800000, guid: 42cabecec9436fa4b9b1e621c5d205fe, type: 3}
+  codingSelected: {fileID: 2800000, guid: aadd9c00d03c44c40bb758b73fe41c37, type: 3}
+  _checkSetup: {fileID: 2800000, guid: 6c7684a08ce3bbf4e952fdec98041aea, type: 3}
+  _checked: {fileID: 2800000, guid: 13145a91aebcc7a4891be777027369b6, type: 3}
+  _unchecked: {fileID: 2800000, guid: d7e6f4503cb4b284684a08365c58a50f, type: 3}
+  _incompleted: {fileID: 2800000, guid: 8a9faca13c666614bb9c43b905e733e8, type: 3}
+  _completed: {fileID: 2800000, guid: 14cb7977ff80af14ab8081239e287a3d, type: 3}
+  gearImage: {fileID: 2800000, guid: 256837c6a08a088488c889f054e497f8, type: 3}
+  openSettings: 0
+  screenScale: 0
+  selectedWeek: 4
+  drawDefault: 0
+  design:
+    easy:
+    - name: MSDG
+      completed: 0
+      count: 0
+      customInstructions: 0
+      instructions: 
+      url: https://youtu.be/Eag3c1IaOxc
+      collapse: 1
+      incompletedText: You do not have a Menu Scene Dungeon Gate
+      completedText: You now have a Menu Scene Dungeon Gate!
+      feedback: 
+      subSteps: []
+      points:
+      - mainCategory: 3
+        subCategoryScript: 0
+        subCategoryUIUX: 0
+        subCategoryDesign: 9
+        subCategoryFx: 0
+        subCategoryPoints: 15
+      coins: 0
+      description: Menu Scene Dungeon Gate
+      prerequisite: 
+    intermediate:
+    - name: CSBT
+      completed: 0
+      count: 0
+      customInstructions: 0
+      instructions: 
+      url: https://youtu.be/z8lW8KlvMOM
+      collapse: 1
+      incompletedText: You have not customized your Base Terrain.
+      completedText: Your Base Terrain is now customized!
+      feedback: 
+      subSteps: []
+      points:
+      - mainCategory: 3
+        subCategoryScript: 0
+        subCategoryUIUX: 0
+        subCategoryDesign: 15
+        subCategoryFx: 0
+        subCategoryPoints: 15
+      coins: 0
+      description: Custom Base Terrain
+      prerequisite: 
+    hard:
+    - name: MMPU
+      completed: 0
+      count: 0
+      customInstructions: 0
+      instructions: 
+      url: https://youtu.be/3zi9XK8zq_g
+      collapse: 1
+      incompletedText: You cannot unlock your Minimap with a pickup
+      completedText: You can now unlock your Minimap with a pickup!
+      feedback: 
+      subSteps: []
+      points:
+      - mainCategory: 3
+        subCategoryScript: 0
+        subCategoryUIUX: 0
+        subCategoryDesign: 8
+        subCategoryFx: 0
+        subCategoryPoints: 15
+      coins: 0
+      description: Unlock Minimap with Pickup
+      prerequisite: 
+  UI:
+    easy:
+    - name: MPCM
+      completed: 0
+      count: 0
+      customInstructions: 0
+      instructions: 
+      url: https://youtu.be/uoj4epTj_bQ
+      collapse: 1
+      incompletedText: You do not have a North indicator for your Minimap.
+      completedText: You now have a Minimap North Indicator!
+      feedback: 
+      subSteps: []
+      points:
+      - mainCategory: 2
+        subCategoryScript: 0
+        subCategoryUIUX: 4
+        subCategoryDesign: 0
+        subCategoryFx: 0
+        subCategoryPoints: 5
+      coins: 0
+      description: Minimap Compass/North indicator
+      prerequisite: 
+    intermediate:
+    - name: ENBP
+      completed: 0
+      count: 0
+      customInstructions: 0
+      instructions: 
+      url: https://youtu.be/S5Uws_pypLk
+      collapse: 1
+      incompletedText: You do not have icons for your enemies on the Minimap.
+      completedText: Your enemies now have minimap blips!
+      feedback: 
+      subSteps: []
+      points:
+      - mainCategory: 2
+        subCategoryScript: 0
+        subCategoryUIUX: 13
+        subCategoryDesign: 0
+        subCategoryFx: 0
+        subCategoryPoints: 5
+      coins: 0
+      description: Enemy Blips
+      prerequisite: 
+    hard:
+    - name: TRBP
+      completed: 0
+      count: 0
+      customInstructions: 0
+      instructions: 
+      url: https://youtu.be/JmPrIImf7W0
+      collapse: 1
+      incompletedText: You do not have icons on your minimap for Treasure.
+      completedText: You now have Treasure Blips!
+      feedback: 
+      subSteps: []
+      points:
+      - mainCategory: 2
+        subCategoryScript: 0
+        subCategoryUIUX: 13
+        subCategoryDesign: 0
+        subCategoryFx: 0
+        subCategoryPoints: 5
+      coins: 0
+      description: Treasure/Objective blips
+      prerequisite: 
+  visual:
+    easy:
+    - name: BTSN
+      completed: 0
+      count: 0
+      customInstructions: 0
+      instructions: 
+      url: https://youtu.be/Hj5RkIyGqm0
+      collapse: 1
+      incompletedText: You do not have sounds for your Buttons.
+      completedText: You now have button sounds!
+      feedback: 
+      subSteps: []
+      points:
+      - mainCategory: 4
+        subCategoryScript: 0
+        subCategoryUIUX: 0
+        subCategoryDesign: 0
+        subCategoryFx: 17
+        subCategoryPoints: 35
+      coins: 0
+      description: Button Sounds
+      prerequisite: 
+    intermediate:
+    - name: MNMS
+      completed: 0
+      count: 0
+      customInstructions: 0
+      instructions: 
+      url: https://youtu.be/Mp3W3W11Kqs
+      collapse: 1
+      incompletedText: You do not have Menu Music.
+      completedText: You now have Menu Music!
+      feedback: 
+      subSteps: []
+      points:
+      - mainCategory: 4
+        subCategoryScript: 0
+        subCategoryUIUX: 0
+        subCategoryDesign: 0
+        subCategoryFx: 17
+        subCategoryPoints: 35
+      coins: 0
+      description: Menu Music
+      prerequisite: 
+    hard:
+    - name: STGS
+      completed: 0
+      count: 0
+      customInstructions: 0
+      instructions: 
+      url: https://youtu.be/2-pX2vURV1s
+      collapse: 1
+      incompletedText: You do not have a unique sound for Start Game.
+      completedText: You now have a Unique sound for Start Game!
+      feedback: 
+      subSteps: []
+      points:
+      - mainCategory: 4
+        subCategoryScript: 0
+        subCategoryUIUX: 0
+        subCategoryDesign: 0
+        subCategoryFx: 17
+        subCategoryPoints: 30
+      coins: 0
+      description: Start Game Sounds
+      prerequisite: 
+  coding:
+    easy:
+    - name: RTMU
+      completed: 0
+      count: 0
+      customInstructions: 0
+      instructions: 
+      url: https://youtu.be/MzpwCYtE6Ek
+      collapse: 1
+      incompletedText: You do not have a button to return to your menu.
+      completedText: You can now press "o" to return to your menu!
+      feedback: 
+      subSteps: []
+      points:
+      - mainCategory: 1
+        subCategoryScript: 1
+        subCategoryUIUX: 0
+        subCategoryDesign: 0
+        subCategoryFx: 0
+        subCategoryPoints: 25
+      coins: 0
+      description: Return to menu button
+      prerequisite: 
+    intermediate:
+    - name: FDFB
+      completed: 0
+      count: 0
+      customInstructions: 0
+      instructions: 
+      url: https://youtu.be/HVpmk8uDXQs
+      collapse: 1
+      incompletedText: Your game does not fade from black at start.
+      completedText: You now fade out of black at game start!
+      feedback: 
+      subSteps: []
+      points:
+      - mainCategory: 1
+        subCategoryScript: 1
+        subCategoryUIUX: 0
+        subCategoryDesign: 0
+        subCategoryFx: 0
+        subCategoryPoints: 25
+      coins: 0
+      description: Fade from black on scene start
+      prerequisite: 
+    hard:
+    - name: CYBG
+      completed: 0
+      count: 0
+      customInstructions: 0
+      instructions: 
+      url: https://youtu.be/l5Wj8Bt4BlI
+      collapse: 1
+      incompletedText: Your backgrounds do not cycle in your menu.
+      completedText: Your menu backgrounds now cycle!
+      feedback: 
+      subSteps: []
+      points:
+      - mainCategory: 1
+        subCategoryScript: 1
+        subCategoryUIUX: 0
+        subCategoryDesign: 0
+        subCategoryFx: 0
+        subCategoryPoints: 25
+      coins: 0
+      description: Cycle backgrounds in menu
+      prerequisite: 

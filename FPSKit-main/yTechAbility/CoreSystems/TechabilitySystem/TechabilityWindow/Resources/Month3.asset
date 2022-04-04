@@ -1,0 +1,405 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ed501699bc4ab047acad5bb638a7279, type: 3}
+  m_Name: Month3
+  m_EditorClassIdentifier: 
+  week1: {fileID: 2800000, guid: 015b5bcb39c08754096009103a14bf75, type: 3}
+  week2: {fileID: 2800000, guid: 0baba6a0efb51ef4ab492567f2017777, type: 3}
+  week3: {fileID: 2800000, guid: 964ea971af371fe47be91b1dce0877a3, type: 3}
+  week4: {fileID: 2800000, guid: d78fab46490ab434081861d9ded3b76d, type: 3}
+  week1Selected: {fileID: 2800000, guid: 0d3deb73ecf38924db248244f54c1c92, type: 3}
+  week2Selected: {fileID: 2800000, guid: 1e0e3d5f40076c74dab77c2a980d2ffb, type: 3}
+  week3Selected: {fileID: 2800000, guid: 8c6db607faf21f747a5b9d031176d9a4, type: 3}
+  week4Selected: {fileID: 2800000, guid: 725651a01dfc6a04ea55e4cc05ba461d, type: 3}
+  _checkSetup: {fileID: 2800000, guid: 8773453d34252e845bad2fdca5435606, type: 3}
+  _checked: {fileID: 2800000, guid: 2b69b5fab8c620a439cdae36017a9ef8, type: 3}
+  _unchecked: {fileID: 2800000, guid: 03190f91e2131414eaf12f82ba941bb3, type: 3}
+  _incompleted: {fileID: 2800000, guid: b514f43eb6cfd2e488c8c43c59025bac, type: 3}
+  _completed: {fileID: 2800000, guid: 51de5b28804b98f4aa114292a3643efd, type: 3}
+  headerImage: {fileID: 2800000, guid: 9f0a0207ba251dd4d9dbd4adfb2b175e, type: 3}
+  gearImage: {fileID: 2800000, guid: 256837c6a08a088488c889f054e497f8, type: 3}
+  openSettings: 0
+  screenScale: 0.5555556
+  email: Teacher
+  password: Password
+  studentID: "\n        301804040404"
+  classesPerWeek: 1
+  startDate:
+  - 2021
+  - 3
+  - 1
+  loggedIn: 1
+  isTeacher: 0
+  selectedWeek: 4
+  drawDefault: 0
+  steps1:
+  - name: ENVR
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/0JOv_T4-ltA
+    collapse: 1
+    incompletedText: You have not selected an environment
+    completedText: You have selected an environment!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 15
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Select Environment
+    prerequisite: 
+  - name: PLPF
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/W5yEGON3vEE
+    collapse: 1
+    incompletedText: You have not set up your Player Prefabs
+    completedText: You have succesfully set up your Player Prefabs!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 14
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Set up Player Prefabs
+    prerequisite: 
+  - name: DNGT
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/MBA6K4-pzsg
+    collapse: 1
+    incompletedText: You have not set up your Dungeon Gates
+    completedText: You have set up your Dungeon Gates!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 15
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Set up Dungeon Gates
+    prerequisite: 
+  - name: DCBS
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/_oHb1ZSP_I8
+    collapse: 1
+    incompletedText: You have not added atleast 5 decorations to your base
+    completedText: You have decorated your base!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 15
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Decorate Base
+    prerequisite: 
+  steps2:
+  - name: HZEN
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/GJQiv7R8EXM
+    collapse: 1
+    incompletedText: You have not selected a Hazardous Environment piece
+    completedText: You have now designated a Hazardous Environment object!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 8
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Select hazardous environment piece
+    prerequisite: 
+  - name: HZSC
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/femxQe3tHGU
+    collapse: 1
+    incompletedText: You have not attached the Hazard script or set its values
+    completedText: You have succesfully set up the Hazard script!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 1
+      subCategoryScript: 2
+      subCategoryUIUX: 0
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 25
+    coins: 0
+    description: Attach Hazard Script and set values
+    prerequisite: 
+  - name: HZBC
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/JCE_tC-8R8E
+    collapse: 1
+    incompletedText: You have not attached your collider component to your Hazard
+    completedText: Your Hazard now has a collider!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 9
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: 'Attach box collider component '
+    prerequisite: 
+  - name: HZTG
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/y7TD4uWW7lg
+    collapse: 1
+    incompletedText: You have not created or set the tag for your Hazard
+    completedText: Your Hazard is now properly tagged!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 8
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Create and set tag
+    prerequisite: 
+  steps3:
+  - name: DRPB
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/Zk6fq4vU6mA
+    collapse: 1
+    incompletedText: You have not set up the Door Prefab
+    completedText: You now have the Door Prefab!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 14
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Set up Door Prefab
+    prerequisite: 
+  - name: DOOR
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/R8zo84hcTvM
+    collapse: 1
+    incompletedText: You have not placed atleast one door in your scene
+    completedText: You have succesfully placed a door in your scene!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 14
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Place 1 Door
+    prerequisite: 
+  - name: KYPB
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/0m8f3JYaM-k
+    collapse: 1
+    incompletedText: You have not set up your Key prefab
+    completedText: Your Key prefab is now set up!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 14
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Set up Key Prefab
+    prerequisite: 
+  - name: KEYS
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/aY8QUgbD49o
+    collapse: 1
+    incompletedText: You have not placed a key in the scene with your door
+    completedText: Your Key and Door are now set up!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 9
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Place 1 Keys Assign Key and Door pa
+    prerequisite: 
+  - name: KYUI
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/RwuOYtPNxlc
+    collapse: 1
+    incompletedText: You have not added the Key UI
+    completedText: Your Key UI is now added!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 2
+      subCategoryScript: 0
+      subCategoryUIUX: 4
+      subCategoryDesign: 0
+      subCategoryFx: 0
+      subCategoryPoints: 25
+    coins: 0
+    description: Place Key UI Prefab
+    prerequisite: 
+  steps4:
+  - name: SPKE
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/qUjhDcDPOeY
+    collapse: 1
+    incompletedText: You have not set up the Spike gameobject
+    completedText: Your Spikes are now set up!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 8
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Set up spike gameobject
+    prerequisite: 
+  - name: SPTG
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/WZRbtOSzIfs
+    collapse: 1
+    incompletedText: You have not attached the Hazard script or Triggers to your
+      spikes
+    completedText: Your spikes are now properly set up!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 8
+      subCategoryFx: 0
+      subCategoryPoints: 10
+    coins: 0
+    description: Attach Hazard Script and Set Teg
+    prerequisite: 
+  - name: TRCP
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/ap_Zpk7EwEw
+    collapse: 1
+    incompletedText: You have not set up the SpikeTrap component
+    completedText: Your SpikeTrap component has been set up!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 9
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Spike Trap Component
+    prerequisite: 
+  - name: SPLV
+    completed: 0
+    count: 0
+    customInstructions: 0
+    instructions: 
+    url: https://youtu.be/4XIvV9UzYU0
+    collapse: 1
+    incompletedText: You have not placed a SpikeTrap in one of your levels
+    completedText: You have now placed a SpikeTrap in one of your levels!
+    feedback: 
+    subSteps: []
+    points:
+    - mainCategory: 3
+      subCategoryScript: 0
+      subCategoryUIUX: 0
+      subCategoryDesign: 14
+      subCategoryFx: 0
+      subCategoryPoints: 5
+    coins: 0
+    description: Place in level
+    prerequisite: 
