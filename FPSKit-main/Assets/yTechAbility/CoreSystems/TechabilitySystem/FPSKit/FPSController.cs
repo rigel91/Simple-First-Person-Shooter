@@ -9,24 +9,37 @@ namespace Techability.Systems
         Rigidbody RB;
         PlayerHacks hacks;
         public GameObject CameraRoot;
-        int InvertMouseInt = -1; 
+        int InvertMouseInt = -1;
+        [HideInInspector]
         public bool isMouseLocked = true;
-        public float GroundDistance = .1f; 
+        [HideInInspector]
+        public float GroundDistance = .1f;
+        [HideInInspector]
         public float CameraAngle = 0;
 
+        [HideInInspector]
         public bool InvertMouse = true;
+        [HideInInspector]
         public float MinCameraAngle = -45;
+        [HideInInspector]
         public float MaxCameraAngle = 75;
+        [HideInInspector]
         public float MouseSensitivity = 3; 
 
+        [HideInInspector]
         public float MoveSpeed = 10;
+        [HideInInspector]
         public float RotationSpeed = 90;
+        [HideInInspector]
         public float JumpPower = 100;
+        [HideInInspector]
         public float GravityPower = 10;
 
-        public Weapon ActiveWeapon; 
+        public Weapon ActiveWeapon;
 
+        [HideInInspector]
         public InputData CurrentInputData;
+        [HideInInspector]
         public InputData PreviousInputData;
 
         Dictionary<string, bool> InventoryList; 
