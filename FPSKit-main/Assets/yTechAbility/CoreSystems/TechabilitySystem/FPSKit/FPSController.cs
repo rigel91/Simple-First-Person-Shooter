@@ -33,7 +33,7 @@ namespace Techability.Systems
         [HideInInspector]
         public float JumpPower = 100;
         [HideInInspector]
-        public float GravityPower = 10;
+        public float GravityPower = 0.5f;
 
         public Weapon ActiveWeapon;
 
@@ -81,9 +81,14 @@ namespace Techability.Systems
 
             if (IsGrounded())
             {
-                if(CurrentInputData.ButtonSouth)
+                //if(CurrentInputData.ButtonSouth)
+                //{
+                //    RB.AddForce(Vector3.up * JumpPower * 1000);
+                //}
+
+                if(Input.GetKeyDown(KeyCode.Space))
                 {
-                    RB.AddForce(Vector3.up * JumpPower * 1000);
+                    RB.AddForce(Vector3.up * JumpPower * 1000);                    
                 }
             }
             else

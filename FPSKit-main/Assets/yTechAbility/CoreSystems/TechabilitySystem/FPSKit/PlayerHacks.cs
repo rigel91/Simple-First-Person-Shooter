@@ -10,9 +10,17 @@ namespace Techability.Systems
 
         void Start()
         {
-            Player = gameObject.GetComponent<FPSController>();
-           
-           
+            Player = gameObject.GetComponent<FPSController>();            
+
+            //these are the default values, change them and play around with them
+            //Player.MoveSpeed: movespeed is at 10
+            //Player.RotationSpeed: rotation speed is at 90
+            //jumpPower is at 100
+            //Player.MouseSensitivity: mouse sensitivity is at 3
+            Player.JumpPower = 75;
+            Player.MoveSpeed = 8;
+            Player.RotationSpeed = 75;
+            Player.MouseSensitivity = 2.2f;
         }
 
         void Update()
