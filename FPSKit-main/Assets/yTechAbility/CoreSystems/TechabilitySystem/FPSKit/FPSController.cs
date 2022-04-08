@@ -81,15 +81,15 @@ namespace Techability.Systems
 
             if (IsGrounded())
             {
-                //if(CurrentInputData.ButtonSouth)
-                //{
-                //    RB.AddForce(Vector3.up * JumpPower * 1000);
-                //}
-
-                if(Input.GetKeyDown(KeyCode.Space))
+                if (CurrentInputData.ButtonSouth)
                 {
-                    RB.AddForce(Vector3.up * JumpPower * 1000);                    
+                    RB.AddForce(Vector3.up * JumpPower * 1000);
                 }
+
+                //if(Input.GetKeyDown(KeyCode.Space))
+                //{
+                //    RB.AddForce(Vector3.up * JumpPower * 1000);                    
+                //}
             }
             else
             {

@@ -17,10 +17,11 @@ namespace Techability.Systems
             //Player.RotationSpeed: rotation speed is at 90
             //jumpPower is at 100
             //Player.MouseSensitivity: mouse sensitivity is at 3
-            Player.JumpPower = 75;
+            Player.JumpPower = 80;
             Player.MoveSpeed = 8;
             Player.RotationSpeed = 75;
             Player.MouseSensitivity = 2.2f;
+            Player.GravityPower = 400;
         }
 
         void Update()
