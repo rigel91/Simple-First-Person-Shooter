@@ -5,7 +5,15 @@ using UnityEngine;
 public class Spinner : MonoBehaviour
 {
     public bool IsActive = true;
-    public float SpinRate = 90; 
+    public float SpinRate = 90;
+
+    private GameObject player;
+    public float distance;
+
+    void Start()
+    {
+        player = GameObject.FindGameObjectWithTag("Player");
+    }
 
     public void Stop()
     {
@@ -17,6 +25,14 @@ public class Spinner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        float step = 5*Time.deltaTime;
+
+        if (Vector3.Distance(transform.position, player.transform.position) < distance)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, player.transform.position, step);
+        }
+
+
         if (!IsActive)
         {
             return; 
