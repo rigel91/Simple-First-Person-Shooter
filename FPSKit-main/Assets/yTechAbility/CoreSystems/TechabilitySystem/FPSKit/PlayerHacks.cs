@@ -21,7 +21,7 @@ namespace Techability.Systems
             Player.MoveSpeed = 8;
             Player.RotationSpeed = 75;
             Player.MouseSensitivity = 2.2f;
-            Player.GravityPower = 400;
+            //Player.GravityPower = 400;
         }
 
         void Update()
