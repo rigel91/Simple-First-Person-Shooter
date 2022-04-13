@@ -27,7 +27,8 @@ public class Spinner : MonoBehaviour
     {
         float step = 5*Time.deltaTime;
 
-        if (Vector3.Distance(transform.position, player.transform.position) < distance)
+        float val = Vector3.Distance(transform.position, player.transform.position);
+        if (val < distance && val > 1)
         {
             transform.position = Vector3.MoveTowards(transform.position, player.transform.position, step);
         }
