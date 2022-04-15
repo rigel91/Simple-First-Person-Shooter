@@ -140,7 +140,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8256084134334198273, guid: 8c7f8069981ef8f41b7e5f938262bb03, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.523325
+      value: -16.05
       objectReference: {fileID: 0}
     - target: {fileID: 8256084134334198273, guid: 8c7f8069981ef8f41b7e5f938262bb03, type: 3}
       propertyPath: m_LocalPosition.y
@@ -148,7 +148,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8256084134334198273, guid: 8c7f8069981ef8f41b7e5f938262bb03, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 16.808035
+      value: 14.31
       objectReference: {fileID: 0}
     - target: {fileID: 8256084134334198273, guid: 8c7f8069981ef8f41b7e5f938262bb03, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10422,6 +10422,10 @@ PrefabInstance:
     - target: {fileID: 8256084134334198272, guid: 8c7f8069981ef8f41b7e5f938262bb03, type: 3}
       propertyPath: m_Name
       value: Spin Bot (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8256084134334198272, guid: 8c7f8069981ef8f41b7e5f938262bb03, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8256084134334198273, guid: 8c7f8069981ef8f41b7e5f938262bb03, type: 3}
       propertyPath: m_RootOrder

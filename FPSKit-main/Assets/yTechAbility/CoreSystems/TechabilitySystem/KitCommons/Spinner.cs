@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Spinner : MonoBehaviour
 {
@@ -28,11 +29,10 @@ public class Spinner : MonoBehaviour
         float step = 5*Time.deltaTime;
 
         float val = Vector3.Distance(transform.position, player.transform.position);
-        if (val < distance && val > 1)
+        if (val <= distance && val > 1)
         {
             transform.position = Vector3.MoveTowards(transform.position, player.transform.position, step);
         }
-
 
         if (!IsActive)
         {
@@ -42,4 +42,5 @@ public class Spinner : MonoBehaviour
         gameObject.transform.Rotate(Vector3.up * SpinRate * Time.deltaTime); 
         
     }
+
 }
