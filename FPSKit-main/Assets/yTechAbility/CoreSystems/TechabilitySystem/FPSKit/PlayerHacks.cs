@@ -26,7 +26,10 @@ namespace Techability.Systems
 
         void Update()
         {
-
+            if (Player.CurrentInputData.ButtonShoulderLeft)
+            {
+                Player.ActiveWeapon.Fire();
+            }
 
         }
 
