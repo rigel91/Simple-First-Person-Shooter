@@ -8597,7 +8597,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsActive: 1
   KeyName: Level2Key
-  KeyDisplayName: Display Name
+  KeyDisplayName: we have two micahs in this class
   OnUnlockDoor:
     m_PersistentCalls:
       m_Calls:
