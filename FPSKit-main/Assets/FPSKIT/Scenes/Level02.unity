@@ -3960,6 +3960,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 199473163837075702, guid: e9dcf4196f90aec40bfd9666319fbe69, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9dcf4196f90aec40bfd9666319fbe69, type: 3}
 --- !u!1001 &788478622
@@ -10022,6 +10026,7 @@ GameObject:
   - component: {fileID: 2058528846}
   - component: {fileID: 2058528845}
   - component: {fileID: 2058528844}
+  - component: {fileID: 2058528848}
   m_Layer: 0
   m_Name: Step 3 Trigger Check
   m_TagString: Untagged
@@ -10122,6 +10127,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2058528842}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2058528848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058528842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1511507608a90f4c84224c820f3ee46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2061746630
 PrefabInstance:
   m_ObjectHideFlags: 0

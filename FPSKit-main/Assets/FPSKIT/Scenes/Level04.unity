@@ -1238,11 +1238,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4342516323256500, guid: 1af9b662b5d286047b2ec89f3e9c9d3c, type: 3}
   m_PrefabInstance: {fileID: 208884753}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &211451605 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5036014208045430252, guid: 8ddcc8f3e80eaf6479c4e9acdcbfa0dc, type: 3}
-  m_PrefabInstance: {fileID: 812071422}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &233368080
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2824,7 +2819,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95ece4d28b7a8524d8a6bba1dde9a9e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnemyList: []
+  EnemyList:
+  - {fileID: 1039272169449923}
+  - {fileID: 1039270671736340}
+  - {fileID: 1039272371736810}
   OnEmpty:
     m_PersistentCalls:
       m_Calls:
@@ -4632,10 +4630,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5036014208996658187, guid: 8ddcc8f3e80eaf6479c4e9acdcbfa0dc, type: 3}
-      propertyPath: ActiveWeapon
-      value: 
-      objectReference: {fileID: 1146821994}
     - target: {fileID: 5036014208996658190, guid: 8ddcc8f3e80eaf6479c4e9acdcbfa0dc, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -6938,17 +6932,6 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!114 &1146821994 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4701405785037376676, guid: df28c306b1818f94b8ab463efb1ab3ec, type: 3}
-  m_PrefabInstance: {fileID: 2100389361}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e91b328c7dce2d4fad5842ea6c0549d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1152530873
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10341,63 +10324,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4120754108402150, guid: 185a5eff157b4ca488205ec24d93caf7, type: 3}
   m_PrefabInstance: {fileID: 2096482427}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &2100389361
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 211451605}
-    m_Modifications:
-    - target: {fileID: 4701405785037376677, guid: df28c306b1818f94b8ab463efb1ab3ec, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4701405785037376677, guid: df28c306b1818f94b8ab463efb1ab3ec, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4701405785037376677, guid: df28c306b1818f94b8ab463efb1ab3ec, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4701405785037376677, guid: df28c306b1818f94b8ab463efb1ab3ec, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4701405785037376677, guid: df28c306b1818f94b8ab463efb1ab3ec, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4701405785037376677, guid: df28c306b1818f94b8ab463efb1ab3ec, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4701405785037376677, guid: df28c306b1818f94b8ab463efb1ab3ec, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4701405785037376677, guid: df28c306b1818f94b8ab463efb1ab3ec, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4701405785037376677, guid: df28c306b1818f94b8ab463efb1ab3ec, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4701405785037376677, guid: df28c306b1818f94b8ab463efb1ab3ec, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4701405785037376677, guid: df28c306b1818f94b8ab463efb1ab3ec, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4701405785037376678, guid: df28c306b1818f94b8ab463efb1ab3ec, type: 3}
-      propertyPath: m_Name
-      value: Weapon_Pistol
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: df28c306b1818f94b8ab463efb1ab3ec, type: 3}
 --- !u!1001 &2103098912
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10642,7 +10568,31 @@ MonoBehaviour:
   MaxHealth: 100
   OnDeathEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 532674197}
+        m_TargetAssemblyTypeName: EnemyCountManager, Techability
+        m_MethodName: RemoveEnemy
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1039270671736340}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1039270671736342}
+        m_TargetAssemblyTypeName: Spinner, Techability
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   TakenDamageEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -10665,6 +10615,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsActive: 1
   SpinRate: 420
+  distance: 0
 --- !u!1 &1039272169449923
 GameObject:
   m_ObjectHideFlags: 0
@@ -10705,7 +10656,31 @@ MonoBehaviour:
   MaxHealth: 100
   OnDeathEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 532674197}
+        m_TargetAssemblyTypeName: EnemyCountManager, Techability
+        m_MethodName: RemoveEnemy
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1039272169449923}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1039272169449925}
+        m_TargetAssemblyTypeName: Spinner, Techability
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   TakenDamageEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -10728,6 +10703,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsActive: 1
   SpinRate: 420
+  distance: 0
 --- !u!1 &1039272371736810
 GameObject:
   m_ObjectHideFlags: 0
@@ -10768,7 +10744,31 @@ MonoBehaviour:
   MaxHealth: 100
   OnDeathEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 532674197}
+        m_TargetAssemblyTypeName: EnemyCountManager, Techability
+        m_MethodName: RemoveEnemy
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1039272371736810}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1039272371736812}
+        m_TargetAssemblyTypeName: Spinner, Techability
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   TakenDamageEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -10791,6 +10791,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsActive: 1
   SpinRate: 420
+  distance: 0
 --- !u!4 &4784628136688921
 Transform:
   m_ObjectHideFlags: 0
